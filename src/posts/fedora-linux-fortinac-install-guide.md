@@ -26,7 +26,9 @@ customers to use. Since the vast majority of them use Windows, any Linux
 versions are janky at best and non-functional at worst. Thankfully, my college
 offered a work-around for "miscellaneous devices", set up the whole thing
 manually.
-![Screenshot of network configuration on KDE Plasma](/uploads/screenshot_20240906_114655.png)
+
+![Screenshot of network configuration on KDE Plasma](/uploads/Screenshot_20240906_114655.png)
+
 The process of configuring a secure connection manually is a bit overwhelming,
 but it's ultimately just putting squares in the square hole and circles in the
 circle hole. Your organization will provide all of these, though sometimes under
