@@ -6,5 +6,6 @@ menu:
   visible: true
   order: 2
 ---
+[Linkedin](https://www.linkedin.com/in/owen-wertzberger-14992b164/)
 
-Hola
+Email: o.wertzberger@wheelsbot.dev
