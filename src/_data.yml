@@ -1,7 +1,9 @@
 lang: en
 home:
   welcome: 'Hello, I am a power user that likes to make hardware my own.'
-menu_links: []
+menu_links:
+  - title: LinkedIn
+    url: 'https://www.linkedin.com/in/owen-wertzberger-14992b164/'
 metas:
   site: Wheelsblog V7
   description: >-
