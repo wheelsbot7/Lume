@@ -1,5 +1,6 @@
 import date, { Options as DateOptions } from "lume/plugins/date.ts";
 import postcss from "lume/plugins/postcss.ts";
+import tailwindcss from "lume/plugins/tailwindcss.ts";
 import terser from "lume/plugins/terser.ts";
 import prism, { Options as PrismOptions } from "lume/plugins/prism.ts";
 import basePath from "lume/plugins/base_path.ts";
@@ -46,7 +47,9 @@ export default function (userOptions?: Options) {
   const options = merge(defaults, userOptions);
 
   return (site: Lume.Site) => {
-    site.use(postcss())
+    site
+      .use(postcss())
+      .use(tailwindcss())
       .use(basePath())
       .use(toc())
       .use(prism(options.prism))

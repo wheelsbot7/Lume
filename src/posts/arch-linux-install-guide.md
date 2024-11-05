@@ -9,6 +9,7 @@ tags:
 comments: {}
 draft: false
 ---
+
 If you're just here for an install guide, hop down to the numbered list. If
 you're interested in learning _why_ you should install Linux, read on!
 
