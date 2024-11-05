@@ -1,9 +1,9 @@
 lang: en
 home:
-  welcome: 'Welcome to the zone'
+  welcome: "Welcome to the zone"
 menu_links:
   - title: LinkedIn
-    url: 'https://www.linkedin.com/in/owen-wertzberger-14992b164/'
+    url: "https://www.linkedin.com/in/owen-wertzberger-14992b164/"
 metas:
   site: Wheelsblog V7
   description: >-

@@ -84,7 +84,7 @@ cms.document(
 
 cms.collection(
   "posts: Blog posts",
-  "src:posts/*.md",
+  "src:posts/*.mdx",
   [
     "title: text",
     url,
@@ -118,6 +118,11 @@ cms.collection(
       name: "extra_head",
       type: "code",
       description: "Extra content to include in the <head> tag",
+    },
+    {
+      name: "excerpt",
+      type: "markdown",
+      label: "Excerpt",
     },
     {
       name: "content",
