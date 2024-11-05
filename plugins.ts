@@ -48,8 +48,8 @@ export default function (userOptions?: Options) {
 
   return (site: Lume.Site) => {
     site
-      .use(postcss())
       .use(tailwindcss())
+      .use(postcss())
       .use(basePath())
       .use(toc())
       .use(prism(options.prism))
@@ -74,7 +74,7 @@ export default function (userOptions?: Options) {
       .preprocess([".md"], (pages) => {
         for (const page of pages) {
           page.data.excerpt ??= (page.data.content as string).split(
-            /<!--\s*more\s*-->/i,
+            /<!--\s*more\s*-->/i
           )[0];
         }
       });
