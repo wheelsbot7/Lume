@@ -8,12 +8,11 @@ tags:
   - Guide
 comments: {}
 draft: false
-excerpt: "If you're just here for an install guide, hop down to the numbered list. If
-you're interested in learning _why_ you should install Linux, read on!"
 ---
-
 If you're just here for an install guide, hop down to the numbered list. If
 you're interested in learning _why_ you should install Linux, read on!
+
+<!--more-->
 
 Linux has a (well deserved) reputation for being intimidating for newcomers, and
 I don't think that's a problem that needs to or even can be solved. The basic
@@ -47,7 +46,7 @@ me and hopefully some of you. With me so far? Great, then let's go!
 
 1. ## PREPARE INSTALLATION MEDIUM
    1. It's a lot less scary than it sounds, you just need a USB flash drive with
-      \>4GB of storage.
+      > 4GB of storage.
    2. Download the Arch ISO file from whatever mirror you want
       1. Mirrors can be really overwhelming, but they're all the same, the only
          difference is download speed

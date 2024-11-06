@@ -10,8 +10,6 @@
     "update-deps": "deno run -A --quiet 'https://deno.land/x/nudd@v0.2.8/cli.ts' update plugins.ts deno.json"
   },
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "jsxImportSource": "npm:react",
     "types": [
       "lume/types.ts"
     ]
@@ -28,9 +26,7 @@
   },
   "fmt": {
     "exclude": [
-      "./_site",
-      "./src/posts",
-      "./src/.obsidian"
+      "./_site"
     ]
   }
 }
