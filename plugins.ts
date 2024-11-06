@@ -10,7 +10,10 @@ import metas from "lume/plugins/metas.ts";
 import pagefind, { Options as PagefindOptions } from "lume/plugins/pagefind.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import feed, { Options as FeedOptions } from "lume/plugins/feed.ts";
-import { readingInfo, Options as ReadingInfoOptions } from "lume/plugins/reading_info.ts";
+import {
+  Options as ReadingInfoOptions,
+  readingInfo,
+} from "lume/plugins/reading_info.ts";
 import { merge } from "lume/core/utils/object.ts";
 // These plugins only seem to work with .md, not .mdx
 // import toc from "https://deno.land/x/lume_markdown_plugins@v0.7.1/toc.ts";
@@ -79,7 +82,7 @@ export default function (userOptions?: Options) {
       .preprocess([".mdx"], (pages) => {
         for (const page of pages) {
           page.data.excerpt ??= (page.data.content as string).split(
-            /:::more\s*([\s\S]+?)\s*:::more/
+            /:::more\s*([\s\S]+?)\s*:::more/,
           )[0];
         }
       });
