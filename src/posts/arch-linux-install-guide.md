@@ -46,7 +46,7 @@ me and hopefully some of you. With me so far? Great, then let's go!
 
 1. ## PREPARE INSTALLATION MEDIUM
    1. It's a lot less scary than it sounds, you just need a USB flash drive with
-      > 4GB of storage.
+      \>4GB of storage.
    2. Download the Arch ISO file from whatever mirror you want
       1. Mirrors can be really overwhelming, but they're all the same, the only
          difference is download speed
