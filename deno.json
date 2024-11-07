@@ -1,7 +1,10 @@
 {
   "imports": {
     "lume/": "https://deno.land/x/lume@v2.4.0/",
-    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@0.7.2/"
+    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@0.7.2/",
+    "preact": "npm:preact@^10.24.3",
+    "react": "npm:react@^18.3.1",
+    "react-dom": "npm:react-dom@^18.3.1"
   },
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
@@ -10,6 +13,8 @@
     "update-deps": "deno run -A --quiet 'https://deno.land/x/nudd@v0.2.8/cli.ts' update plugins.ts deno.json"
   },
   "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
     "types": [
       "lume/types.ts"
     ]
