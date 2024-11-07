@@ -2,9 +2,9 @@
   "imports": {
     "lume/": "https://deno.land/x/lume@v2.4.0/",
     "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@0.7.2/",
-    "preact": "npm:preact@^10.24.3",
-    "react": "npm:react@^18.3.1",
-    "react-dom": "npm:react-dom@^18.3.1"
+    "preact": "npm:preact@10.24.3",
+    "react": "npm:react@18.3.1",
+    "react-dom": "npm:react-dom@18.3.1"
   },
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
