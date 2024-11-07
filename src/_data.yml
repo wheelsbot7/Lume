@@ -11,6 +11,6 @@ metas:
     Pennsylvania
   title: =title
   image: =image
-  twitter: wheelsbot@mastodon.gamedev.place
+  fediverse: wheelsbot@mastodon.gamedev.place
   lang: en
-  generator: false
+  generator: true
