@@ -80,8 +80,8 @@ export default function (userOptions?: Options) {
             cjsExports: {
               "preact": ["Component"],
             },
-          }
-        })
+          },
+        }),
       )
       .copy("fonts")
       .copy("js")
@@ -92,7 +92,7 @@ export default function (userOptions?: Options) {
       .preprocess([".md"], (pages) => {
         for (const page of pages) {
           page.data.excerpt ??= (page.data.content as string).split(
-            /<!--\s*more\s*-->/i
+            /<!--\s*more\s*-->/i,
           )[0];
         }
       });

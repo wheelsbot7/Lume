@@ -31,7 +31,10 @@
   },
   "fmt": {
     "exclude": [
-      "./_site"
+      "./_site",
+      "./src/posts",
+      "./src/pages",
+      "./src/.obsidian"
     ]
   }
 }

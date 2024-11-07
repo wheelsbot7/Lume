@@ -46,19 +46,20 @@ class SoftwareList extends HTMLElement {
         container.appendChild(document.createElement("br"));
 
         // Add event listener for checkbox change
-        checkbox.addEventListener("change", () =>
-          this.updateselectedSoftware()
+        checkbox.addEventListener(
+          "change",
+          () => this.updateselectedSoftware(),
         );
       });
 
       // Append the checkbox list and the paragraph to the shadow DOM
       this.shadowRoot.appendChild(container);
-      const div = document.createElement('div');
-      div.classList.add('terminal');
+      const div = document.createElement("div");
+      div.classList.add("terminal");
       this.shadowRoot
         .appendChild(div)
-        .appendChild(document.createElement('pre'))
-        .appendChild(this.selectedSoftwareParagraph)
+        .appendChild(document.createElement("pre"))
+        .appendChild(this.selectedSoftwareParagraph);
     } else {
       // Show an error message if software couldn't be loaded
       this.selectedSoftwareParagraph.textContent = "Error loading software.";
@@ -68,7 +69,7 @@ class SoftwareList extends HTMLElement {
   updateselectedSoftware() {
     // Get all the checkboxes inside the shadow DOM
     const checkboxes = this.shadowRoot.querySelectorAll(
-      'input[type="checkbox"]:checked'
+      'input[type="checkbox"]:checked',
     );
 
     // Create a string of selected software
@@ -77,7 +78,8 @@ class SoftwareList extends HTMLElement {
       .join(" ");
 
     // Update the text content of the paragraph with the selected software
-    this.selectedSoftwareParagraph.textContent = `sudo pacman -Sy ${selectedSoftware}`;
+    this.selectedSoftwareParagraph.textContent =
+      `sudo pacman -Sy ${selectedSoftware}`;
   }
 }
 
