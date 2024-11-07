@@ -26,6 +26,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: owenwertzbe-lume-90
+          project: wheelsbot-lume
           import-map: "./deno.json"
           entrypoint: serve.ts
