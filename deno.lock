@@ -60,7 +60,6 @@
     "npm:meriyah@6.0.3": "6.0.3",
     "npm:pagefind@1.1.1": "1.1.1",
     "npm:pagefind@1.2.0": "1.2.0",
-    "npm:pagefind@1.2.0": "1.2.0",
     "npm:postcss-import@16.1.0": "16.1.0_postcss@8.4.47",
     "npm:postcss@8.4.47": "8.4.47",
     "npm:preact@10.24.3": "10.24.3",
@@ -275,14 +274,8 @@
     "@pagefind/darwin-arm64@1.2.0": {
       "integrity": "sha512-pHnPL2rm4xbe0LqV376g84hUIsVdy4PK6o2ACveo0DSGoC40eOIwPUPftnUPUinSdDWkkySaL5FT5r9hsXk0ZQ=="
     },
-    "@pagefind/darwin-arm64@1.2.0": {
-      "integrity": "sha512-pHnPL2rm4xbe0LqV376g84hUIsVdy4PK6o2ACveo0DSGoC40eOIwPUPftnUPUinSdDWkkySaL5FT5r9hsXk0ZQ=="
-    },
     "@pagefind/darwin-x64@1.1.1": {
       "integrity": "sha512-ChohLQ39dLwaxQv0jIQB/SavP3TM5K5ENfDTqIdzLkmfs3+JlzSDyQKcJFjTHYcCzQOZVeieeGq8PdqvLJxJxQ=="
-    },
-    "@pagefind/darwin-x64@1.2.0": {
-      "integrity": "sha512-q2tcnfvcRyx0GnrJoUQJ5bRpiFNtI8DZWM6a4/k8sNJxm2dbM1BnY5hUeo4MbDfpb64Qc1wRMcvBUSOaMKBjfg=="
     },
     "@pagefind/darwin-x64@1.2.0": {
       "integrity": "sha512-q2tcnfvcRyx0GnrJoUQJ5bRpiFNtI8DZWM6a4/k8sNJxm2dbM1BnY5hUeo4MbDfpb64Qc1wRMcvBUSOaMKBjfg=="
@@ -293,14 +286,8 @@
     "@pagefind/linux-arm64@1.2.0": {
       "integrity": "sha512-wVtLOlF9AUrwLovP9ZSEKOYnwIVrrxId4I2Mz02Zxm3wbUIJyx8wHf6LyEf7W7mJ6rEjW5jtavKAbngKCAaicg=="
     },
-    "@pagefind/linux-arm64@1.2.0": {
-      "integrity": "sha512-wVtLOlF9AUrwLovP9ZSEKOYnwIVrrxId4I2Mz02Zxm3wbUIJyx8wHf6LyEf7W7mJ6rEjW5jtavKAbngKCAaicg=="
-    },
     "@pagefind/linux-x64@1.1.1": {
       "integrity": "sha512-yJs7tTYbL2MI3HT+ngs9E1BfUbY9M4/YzA0yEM5xBo4Xl8Yu8Qg2xZTOQ1/F6gwvMrjCUFo8EoACs6LRDhtMrQ=="
-    },
-    "@pagefind/linux-x64@1.2.0": {
-      "integrity": "sha512-Lo5aO2bA++sQTeEWzK5WKr3KU0yzVH5OnTY88apZfkgL4AVfXckH2mrOU8ouYKCLNPseIYTLFEdj0V5xjHQSwQ=="
     },
     "@pagefind/linux-x64@1.2.0": {
       "integrity": "sha512-Lo5aO2bA++sQTeEWzK5WKr3KU0yzVH5OnTY88apZfkgL4AVfXckH2mrOU8ouYKCLNPseIYTLFEdj0V5xjHQSwQ=="
@@ -1314,7 +1301,8 @@
   },
   "redirects": {
     "https://esm.sh/remark-gfm@4": "https://esm.sh/remark-gfm@4.0.0",
-    "https://esm.sh/remark-toc@9": "https://esm.sh/remark-toc@9.0.0"
+    "https://esm.sh/remark-toc@9": "https://esm.sh/remark-toc@9.0.0",
+    "https://esm.sh/v128/@types/react@~18.3/jsx-runtime~.d.ts": "https://esm.sh/v128/@types/react@18.2.38/jsx-runtime~.d.ts"
   },
   "remote": {
     "https://cdn.jsdelivr.net/gh/lumeland/cms@0.7.0/adapters/lume.ts": "63e5f2d64129a40b7056502f4e635b5bb1ecc3254d56b8d496858f5d6a4ca488",
@@ -1954,6 +1942,8 @@
     "https://deno.land/x/xml@6.0.1/wasm_xml_parser/wasm_xml_parser.js": "7f6b80616f0b5488a40771ed76ebe61cedf9473bf86320da5e8aa0deec22db51",
     "https://esm.sh/remark-gfm@4.0.0": "70abef69093860466f7a316d219ee7f259f34d6869613f2151633edfdc6f5aea",
     "https://esm.sh/remark-toc@9.0.0": "15375f467d541e8ba1dd52ca58805597dd3def38e803bde25444d4e3748d27e5",
+    "https://esm.sh/stable/react@18.3.1/denonext/jsx-runtime.js": "5ff1e02a3bb5c69dd3535d77054b182f1ea51c5eeaf24a396984f6b7012c2716",
+    "https://esm.sh/stable/react@18.3.1/denonext/react.mjs": "fc048ffc55366baf7669519127d186761db72046e2bebf35fe8d0de3964defa3",
     "https://esm.sh/v135/@ungap/structured-clone@1.2.0/denonext/structured-clone.mjs": "e683ab48ef7a3afd3bce9d1589d14177ddbdbf76fa1483524dddbeb6b142469f",
     "https://esm.sh/v135/ccount@2.0.1/denonext/ccount.mjs": "7b32092651a866fcc992c028982ce5e911356da7653baa3febb1a8ccb93e30f8",
     "https://esm.sh/v135/character-entities@2.0.2/denonext/character-entities.mjs": "9e8657f056310ac3ca8058eaf96cef695ee13a4bf6c302674796a882464f305c",
@@ -1999,6 +1989,7 @@
     "https://esm.sh/v135/micromark-util-resolve-all@2.0.0/denonext/micromark-util-resolve-all.mjs": "c11d87d63d808a26231323012295490931159830a66c00854693ec9279fa09fd",
     "https://esm.sh/v135/micromark-util-sanitize-uri@2.0.0/denonext/micromark-util-sanitize-uri.mjs": "cde22cced5a18a41dcdacbad2cc9e6fc930450118bff7dd764e60eea4aa6c5b5",
     "https://esm.sh/v135/micromark-util-subtokenize@2.0.0/denonext/micromark-util-subtokenize.mjs": "670326123b1f9d91218cee035248437b97e5b6828f1d1eb01d40bc46f89bdc64",
+    "https://esm.sh/v135/react@18.3.1/jsx-runtime": "f47f11639cc0531ad2f1e0f6334d9ae7a8d906c905d9b79cb2e8cd4331bc5b10",
     "https://esm.sh/v135/remark-gfm@4.0.0/denonext/remark-gfm.mjs": "f85a05e7e2628abab94d02a346637aa98be2ba2302985fc56208ec7bca43fa20",
     "https://esm.sh/v135/remark-toc@9.0.0/denonext/remark-toc.mjs": "56782a63d575624f318e5057ff25c1a1108c201eca6adcb4f89cf1d4b4c4b5af",
     "https://esm.sh/v135/unist-util-is@6.0.0/denonext/unist-util-is.mjs": "d92da46b3a1084450f150cc06c02f3bf85b93ab4c4b43a960d72a4f5678e95cc",
