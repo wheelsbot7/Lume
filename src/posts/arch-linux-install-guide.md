@@ -147,7 +147,9 @@ me and hopefully some of you. With me so far? Great, then let's go!
       Linux at the top, check all the software you want, copy the command at the
       bottom, and paste into your terminal with Ctrl+Shift+V. An example command
       would look something like this:
-      `sudo pacman -Sy vim firefox make cmake git krita gimp inkscape blender libreoffice vlc audacity thunderbird steam wine zsh`
+      ```bash
+      sudo pacman -Sy vim firefox make cmake git krita gimp inkscape blender libreoffice vlc audacity thunderbird steam wine zsh
+      ```
    3. You can make installing packages from AUR (Arch User Repository) a lot
       easier by installing yay (Yet Another Yogurt wrapper). First up, make sure
       you have the packages `base-devel` and `git` by executing

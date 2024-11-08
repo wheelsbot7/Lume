@@ -2,6 +2,6 @@
 layout: layouts/linite.vto
 title: Linite
 menu:
-  visible: true
+  visible: false
   order: 0
 ---

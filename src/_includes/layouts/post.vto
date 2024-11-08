@@ -8,7 +8,7 @@ bodyClass: body-post
 
     {{ include "templates/post-details.vto" }}
   </header>
-
+{{ if toc }}
   {{ if toc.length }}
   <nav class="toc">
     <h2>{{ i18n.nav.toc }}</h2>
@@ -31,11 +31,13 @@ bodyClass: body-post
     </ol>
   </nav>
   {{ /if }}
+{{ /if }}
 
   <div class="post-body body">
     {{ content }}
   </div>
 
+{{if it.footnotes }}
   {{ if it.footnotes.length }}
   <aside role="note" class="footnotes">
     <dl>
@@ -48,7 +50,7 @@ bodyClass: body-post
     </dl>
   </aside>
   {{ /if }}
-
+{{ /if }}
   {{ if it.comments?.src }}
   <aside class="comments-section">
     <header class="comments-header">

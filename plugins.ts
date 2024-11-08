@@ -11,11 +11,12 @@ import sitemap from "lume/plugins/sitemap.ts";
 import feed, { Options as FeedOptions } from "lume/plugins/feed.ts";
 import readingInfo from "lume/plugins/reading_info.ts";
 import { merge } from "lume/core/utils/object.ts";
-import toc from "https://deno.land/x/lume_markdown_plugins@v0.7.1/toc.ts";
 import image from "https://deno.land/x/lume_markdown_plugins@v0.7.1/image.ts";
 import footnotes from "https://deno.land/x/lume_markdown_plugins@v0.7.1/footnotes.ts";
-import { alert } from "npm:@mdit/plugin-alert@0.13.1";
 import esbuild from "lume/plugins/esbuild.ts";
+import remark from "lume/plugins/remark.ts";
+import remarkToc from "https://esm.sh/remark-toc@9";
+import remarkGfm from "https://esm.sh/remark-gfm@4";
 
 import "lume/types.ts";
 
@@ -48,7 +49,6 @@ export default function (userOptions?: Options) {
     site
       .use(postcss())
       .use(basePath())
-      .use(toc())
       .use(prism(options.prism))
       .use(readingInfo())
       .use(date(options.date))
@@ -61,6 +61,9 @@ export default function (userOptions?: Options) {
       .use(pagefind(options.pagefind))
       .use(sitemap())
       .use(feed(options.feed))
+      .use(remark({
+        remarkPlugins: [remarkToc, remarkGfm],
+      }))
       .use(
         esbuild({
           extensions: [".jsx"],
@@ -98,7 +101,7 @@ export default function (userOptions?: Options) {
       });
 
     // Alert plugin
-    site.hooks.addMarkdownItPlugin(alert);
+    // site.hooks.addMarkdownItPlugin(alert);
 
     // Mastodon comment system
     site.remoteFile(
