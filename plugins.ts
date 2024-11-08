@@ -102,11 +102,5 @@ export default function (userOptions?: Options) {
 
     // Alert plugin
     // site.hooks.addMarkdownItPlugin(alert);
-
-    // Mastodon comment system
-    site.remoteFile(
-      "/js/comments.js",
-      "https://unpkg.com/@oom/mastodon-comments@0.2.2/src/comments.js",
-    );
   };
 }
