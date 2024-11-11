@@ -1,14 +1,21 @@
 ---
 title: What even is a "Web Framework" anyway?
-date: 2024-10-28T00:00:00.000Z
+date: '2024-10-28T00:00:00.000Z'
 draft: true
 tags:
   - webdev
   - JavaScript
 comments: {}
-description: "There's a bit of filler text that I've seen used a lot in website templates. Don't bother reading it, it's all gibberish, but here's a good snippet:  Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Bring to the table win-win survival strategies to ensure proactive domination."
+description: >-
+  There's a bit of filler text that I've seen used a lot in website templates.
+  Don't bother reading it, it's all gibberish, but here's a good snippet: 
+  Leverage agile frameworks to provide a robust synopsis for high level
+  overviews. Iterative approaches to corporate strategy foster collaborative
+  thinking to further the overall value proposition. Organically grow the
+  holistic world view of disruptive innovation via workplace diversity and
+  empowerment. Bring to the table win-win survival strategies to ensure
+  proactive domination.
 ---
-
 There's a bit of filler text that I've seen used a lot in website templates. Don't bother reading it, it's all gibberish, but here's a good snippet:
 
 <p style='font-size: small; line-height: 50%'>Leverage agile frameworks to provide a robust synopsis for high level overviews. <span style='font-size: smaller'>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. <span style='font-size: smaller'>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. <span style='font-size: smaller'>Bring to the table win-win survival strategies to ensure proactive domination. <span style='font-size: smaller'>At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. <span style='font-size: smaller'>User generated content in real-time will have multiple touchpoints for offshoring. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</span></span></span></span></span></p>
@@ -28,6 +35,6 @@ Web Frameworks, on the other hand, are marketed **way** more. Probably because t
 
 Frameworks became necessary after JavaScript fundamentally changed what web pages were capable of. HTML and CSS are both markup languages, they're not [Turing Complete](https://en.wikipedia.org/wiki/Turing_machine). Raw HTML is functionally identical to a TXT file, it's just designed to be processed and formatted before being presented to the end user. It doesn't "execute" like a high-level programming language would, it's just a document. JavaScript can manipulate that document dynamically by adding, removing, and changing sections at runtime. An important term to remember here is [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) (Document Object Model). "Manipulating the DOM" is essentially shorthand for "change something in the HTML without just editing the HTML directly".
 
-JavaScript functionality allows just about anything you can think of to be turned into a web app. The downside? Vanilla JavaScript is a confusing mess to work with. The language was allegedly thrown together in 10 days and is notoriously bad when it comes to handling errors in consistent ways. Combine that with [JIT](https://en.wikipedia.org/wiki/Just-in-time_compilation) (Just In Time) compilation, and JavaScript code is nigh impossible to debug at scale. Web Frameworks provide a layer of abstraction between a web app and a browser.
+JavaScript functionality allows just about anything you can think of to be turned into a web app. The downside? Vanilla JavaScript is a confusing mess to work with. The language was allegedly thrown together in 10 days and is notoriously bad when it comes to handling errors in consistent ways. Combine that with [JIT](https://en.wikipedia.org/wiki/Just-in-time_compilation) (Just In Time) compilation, and JavaScript code is nigh impossible to debug at scale. Web Frameworks provide a layer of abstraction between a web app and a browser with collections of functions and variables. Now you may be thinking "wait that just sounds like a library", and if you aren't, congratulations! You're a minority!
 
 [^1]: But you can help [change that](https://www.wheelsbot.dev/posts/arch-linux-install-guide/) today!
