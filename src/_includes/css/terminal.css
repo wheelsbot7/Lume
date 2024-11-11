@@ -1,23 +1,26 @@
 .terminal {
   display: flex;
+  justify-content: space-between;
 
   & pre {
-    width: fit-content;
+    width: 100%;
     background: var(--color-black-140);
     color: var(--color-black-860);
     padding: 15px 60px 15px 20px;
     border-radius: var(--border-radius-small) 0 0 var(--border-radius-small);
     box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
     position: relative;
-    overflow: hidden;
+    overflow: auto;
+    word-wrap: normal;
+    word-break: normal;
 
     &::after {
       content: "";
-      display: block;
+      display: inline;
       position: absolute;
       top: 0;
       right: 0;
-      height: 100%;
+      height: fit-content;
       width: 100px;
       background: linear-gradient(
         to right,
@@ -28,8 +31,8 @@
 
     & code {
       scrollbar-width: none;
-      display: block;
-      overflow-x: auto;
+      display: inline;
+      white-space: pre-wrap !important;
     }
 
     &::-webkit-scrollbar {

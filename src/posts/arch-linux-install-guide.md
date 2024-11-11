@@ -9,6 +9,7 @@ tags:
 comments: {}
 draft: false
 ---
+
 If you're just here for an install guide, hop down to the numbered list. If
 you're interested in learning _why_ you should install Linux, read on!
 
@@ -147,9 +148,11 @@ me and hopefully some of you. With me so far? Great, then let's go!
       Linux at the top, check all the software you want, copy the command at the
       bottom, and paste into your terminal with Ctrl+Shift+V. An example command
       would look something like this:
-      ```bash
+      <lume-code class="terminal">
+      ```
       sudo pacman -Sy vim firefox make cmake git krita gimp inkscape blender libreoffice vlc audacity thunderbird steam wine zsh
       ```
+      </lume-code>
    3. You can make installing packages from AUR (Arch User Repository) a lot
       easier by installing yay (Yet Another Yogurt wrapper). First up, make sure
       you have the packages `base-devel` and `git` by executing

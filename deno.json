@@ -15,7 +15,10 @@
     "update-deps": "deno run -A --quiet 'https://deno.land/x/nudd@v0.2.8/cli.ts' update plugins.ts deno.json",
     "esm:add": "deno run -A https://esm.sh/v135 add",
     "esm:update": "deno run -A https://esm.sh/v135 update",
-    "esm:remove": "deno run -A https://esm.sh/v135 remove"
+    "esm:remove": "deno run -A https://esm.sh/v135 remove",
+    "fmt": "deno task dprint fmt",
+    "fmt:check": "deno task dprint check",
+    "dprint": "deno run -A npm:dprint"
   },
   "compilerOptions": {
     "jsx": "react-jsx",

@@ -48,7 +48,7 @@
   background: var(--color-background-1);
   border-radius: var(--border-radius);
   border: solid 1px var(--color-background-2);
-  overflow-x: auto;
+
   padding: 1em !important;
 }
 

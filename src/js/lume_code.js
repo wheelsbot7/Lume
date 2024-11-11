@@ -5,8 +5,8 @@ export default class LumeCode extends HTMLElement {
   constructor() {
     super();
     this.tabFocus = 0;
-    this.tabs = this.querySelectorAll('[role="tab"]');
-    this.tabList = this.querySelector('[role="tablist"]');
+    this.tabs = this.querySelectorAll("[role=\"tab\"]");
+    this.tabList = this.querySelector("[role=\"tablist\"]");
     this.buttonBoundListener = this.handleTabChange.bind(this);
     this.keydownBoundListener = this.handleKeyPress.bind(this);
   }
@@ -46,7 +46,7 @@ export default class LumeCode extends HTMLElement {
 
     const current = target.getAttribute("aria-controls");
 
-    grandparent.querySelectorAll('[aria-selected="true"]').forEach((t) => {
+    grandparent.querySelectorAll("[aria-selected=\"true\"]").forEach((t) => {
       if (t === target) return;
       t.setAttribute("aria-selected", false);
       t.setAttribute("tabindex", -1);
@@ -58,7 +58,7 @@ export default class LumeCode extends HTMLElement {
     target.classList.add("is-active");
 
     grandparent.parentNode
-      .querySelectorAll('[role="tabpanel"]')
+      .querySelectorAll("[role=\"tabpanel\"]")
       .forEach((p) => {
         if (p.id === current) {
           p.removeAttribute("hidden");

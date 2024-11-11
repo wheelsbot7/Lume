@@ -9,6 +9,7 @@ tags:
 draft: false
 comments: {}
 ---
+
 I recently had the displeasure of trying to get my laptop to connect to the
 college Wi-Fi after they tightened their restrictions on endpoint management.
 Long story short, I was forced to switch from Arch to Fedora, and I feel the
