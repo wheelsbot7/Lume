@@ -6,12 +6,13 @@ tags:
   - webdev
   - JavaScript
 comments: {}
+description: "There's a bit of filler text that I've seen used a lot in website templates. Don't bother reading it, it's all gibberish, but here's a good snippet:  Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Bring to the table win-win survival strategies to ensure proactive domination."
 ---
 
 There's a bit of filler text that I've seen used a lot in website templates. Don't bother reading it, it's all gibberish, but here's a good snippet:
 
 <p style='font-size: small; line-height: 50%'>Leverage agile frameworks to provide a robust synopsis for high level overviews. <span style='font-size: smaller'>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. <span style='font-size: smaller'>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. <span style='font-size: smaller'>Bring to the table win-win survival strategies to ensure proactive domination. <span style='font-size: smaller'>At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. <span style='font-size: smaller'>User generated content in real-time will have multiple touchpoints for offshoring. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</span></span></span></span></span></p>
-<!--more-->
+
 
 Your eyes glaze over after the first sentence, right? It's mind-numbing. Deliberately so, I should add. It uses buzzwords that rely on context for meaning, but doesn't provide any. Perfect filler text despite being 100% grammatically correct. But that first sentence stuck with me because it's shockingly close to how web frameworks market themselves.
 

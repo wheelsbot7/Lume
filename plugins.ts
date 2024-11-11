@@ -89,14 +89,7 @@ export default function(userOptions?: Options) {
       .copy("data")
       .copy("favicon.png")
       .copy("uploads")
-      .mergeKey("extra_head", "stringArray")
-      .preprocess([".md"], (pages) => {
-        for (const page of pages) {
-          page.data.excerpt ??= (page.data.content as string).split(
-            /<!--\s*more\s*-->/i,
-          )[0];
-        }
-      });
+      .mergeKey("extra_head", "stringArray");
 
     // Alert plugin
     // site.hooks.addMarkdownItPlugin(alert);

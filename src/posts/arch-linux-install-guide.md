@@ -7,13 +7,12 @@ tags:
   - Linux
   - Guide
 comments: {}
+description: If you're just here for an install guide, hop down to the numbered list. If you're interested in learning _why_ you should install Linux, read on!
 draft: false
 ---
 
 If you're just here for an install guide, hop down to the numbered list. If
 you're interested in learning _why_ you should install Linux, read on!
-
-<!--more-->
 
 Linux has a (well deserved) reputation for being intimidating for newcomers, and
 I don't think that's a problem that needs to or even can be solved. The basic

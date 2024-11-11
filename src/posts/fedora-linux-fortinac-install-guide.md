@@ -7,6 +7,7 @@ tags:
   - Linux
   - Guide
 draft: false
+description: I recently had the displeasure of trying to get my laptop to connect to the college Wi-Fi after they tightened their restrictions on endpoint management. Long story short, I was forced to switch from Arch to Fedora, and I feel the need to document the experience so that nobody will ever have to go through what I did to avoid crawling back to Windows with my tail between my legs.
 comments: {}
 ---
 
@@ -15,8 +16,6 @@ college Wi-Fi after they tightened their restrictions on endpoint management.
 Long story short, I was forced to switch from Arch to Fedora, and I feel the
 need to document the experience so that nobody will ever have to go through what
 I did to avoid crawling back to Windows with my tail between my legs.
-
-<!--more-->
 
 ## Why are we even doing this?
 
