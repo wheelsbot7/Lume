@@ -59,6 +59,9 @@ The reigning champion and oldest of the 3. It's hard to pitch what makes Node sp
 ### Bun
 
 Bun is a JavaScript runtime, package manager, bundler, and tester with the main goal of being a drop-in replacement for Node.js. Its selling point is simple: speed. One look at their [website](https://bun.sh/) confirms this. They're really proud of their benchmark scores and are not shy about sharing them. This makes my job a lot easier, because what more do I need to say? There's no hidden nuance here, you don't need any insight into web development to know that a faster runtime is desireable. If you want speed and don't mind the hiccups that come with using software that hit 1.0 in September 2023, bun's the one.
+
+![Image](/uploads/bun-logo.svg)
+
 ### Deno
 
 
