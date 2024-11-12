@@ -48,6 +48,26 @@ There's a VERY gray area between framework and library, but my favorite definiti
 
 ## Okay, I'll bite, what's a JavaScript Runtime?
 
-Techinically there's an even _more_ foundational layer called the JavaScript **Engine**, but Google's [V8](https://v8.dev/) and Mozilla's [SpiderMonkey](https://spidermonkey.dev/) both operate close enough to each other that it's not worth considering for 99.9% of people.
+Techinically there's an even _more_ foundational layer called the JavaScript **Engine**, but Google's [V8](https://v8.dev/) , Mozilla's [SpiderMonkey](https://spidermonkey.dev/), and Apple's [JavascriptCore](https://developer.apple.com/documentation/javascriptcore)[^?] all operate close enough to each other that it's not worth considering for 99.9% of people. The JavaScript **Runtime** refers to the whole environment your code runs in. This includes the engine, web APIs, and an event loop[^2]. Here, things start getting a little less centralized, as there are 3 runtimes with significant support currently on the market.
+
+### Node.js
+
+The reigning champion and oldest of the 3. It's hard to pitch what makes Node special because it's considered the default by every dev tool released after 2010. Its biggest strength is compatibility. Its package manager, npm[^3], is ubiquitous enough that a major selling point of the other 2 runtimes is backwards-compatibility with npm. Node has had a lot of time to grow and mature, but that also means it comes with a lot of baggage. The number of people using the internet has more than doubled since Node was released, and the amount of JavaScript in the median website has more than [septupled](https://httparchive.org/reports/state-of-javascript#bytesJs)[^4]. That's the main reason the other 2 popular runtimes sell themselves as more modern and performant alternatives to Node.
+
+### Bun
+
+
+
+### Deno
+
+
+
+[^?]: Yes, it's "JavascriptCore", not "JavaScriptCore". I don't like it any more than you do. This is like if Levi-oh-SAH was the correct pronunciation.
 
 [^1]: But you can help [change that](https://www.wheelsbot.dev/posts/arch-linux-install-guide/) today!
+
+[^2]: An [equally confusing](https://youtu.be/8aGhZQkoFbQ) subject, but for now let's just say it's the part of your broser responsible for keeping things consistent between you and the server.
+
+[^3]: Which, rather uncreatively, stands for "node package manager"
+
+[^4]: For those of you using your brains for more important things than remembering number prefixes, that's 7 times.
