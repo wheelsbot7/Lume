@@ -5,6 +5,11 @@ draft: true
 tags:
   - webdev
   - JavaScript
+  - React
+  - Vue
+  - Svelte
+  - Deno
+  - Node.js
 comments: {}
 description: >-
   There's a bit of filler text that I've seen used a lot in website templates.
@@ -35,6 +40,14 @@ Web Frameworks, on the other hand, are marketed **way** more. Probably because t
 
 Frameworks became necessary after JavaScript fundamentally changed what web pages were capable of. HTML and CSS are both markup languages, they're not [Turing Complete](https://en.wikipedia.org/wiki/Turing_machine). Raw HTML is functionally identical to a TXT file, it's just designed to be processed and formatted before being presented to the end user. It doesn't "execute" like a high-level programming language would, it's just a document. JavaScript can manipulate that document dynamically by adding, removing, and changing sections at runtime. An important term to remember here is [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) (Document Object Model). "Manipulating the DOM" is essentially shorthand for "change something in the HTML without just editing the HTML directly".
 
+## Why would I need a framework when JavaScript already does it all?
+
 JavaScript functionality allows just about anything you can think of to be turned into a web app. The downside? Vanilla JavaScript is a confusing mess to work with. The language was allegedly thrown together in 10 days and is notoriously bad when it comes to handling errors in consistent ways. Combine that with [JIT](https://en.wikipedia.org/wiki/Just-in-time_compilation) (Just In Time) compilation, and JavaScript code is nigh impossible to debug at scale. Web Frameworks provide a layer of abstraction between a web app and a browser with collections of functions and variables. Now you may be thinking "wait that just sounds like a library", and if you aren't, congratulations! You're a minority!
+
+There's a VERY gray area between framework and library, but my favorite definition is libraries are things you build _**with**_, while frameworks are things you build _**for**_. You can import jQuery into any old project, but to use React functions, you're better off starting over from scratch. This model of framework as a platform means people get very attatched to specific frameworks, as they're functionally new languages and require just as much experience to use effectively. But before choosing a framework, there's an even more foundational layer to web development you have to consider.
+
+## Okay, I'll bite, what's a JavaScript Runtime?
+
+Techinically there's an even _more_ foundational layer called the JavaScript **Engine**, but Google's [V8](https://v8.dev/) and Mozilla's [SpiderMonkey](https://spidermonkey.dev/) both operate close enough to each other that it's not worth considering for 99.9% of people.
 
 [^1]: But you can help [change that](https://www.wheelsbot.dev/posts/arch-linux-install-guide/) today!
