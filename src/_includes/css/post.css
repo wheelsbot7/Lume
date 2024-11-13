@@ -3,10 +3,11 @@
 }
 
 .post-title {
+  font: var(--font-display);
+  letter-spacing: var(--font-display-spacing);
   margin: 0 0 0.2em;
   text-wrap: balance;
   color: var(--color-base);
-  @apply prose;
 }
 
 .post-details {
@@ -19,7 +20,7 @@
   color: var(--color-dim);
 
   & p {
-    margin: 0 !important;
+    margin: 0;
   }
 
   & p:nth-child(-n+2)::after {
@@ -29,11 +30,11 @@
   }
 
   & p:last-of-type {
-    margin-right: 0.5em !important;
+    margin-right: 0.5em;
   }
 
   & a {
-    color: inherit !important;
+    color: inherit;
   }
 }
 
@@ -48,11 +49,10 @@
   display: inline-block;
 }
 
-.post-body figure {
-  max-width: 80%;
+.post-body img {
+  max-width: 50%;
   margin: auto;
   display: block;
-  padding: 20px;
 }
 
 .post-body figcaption {
@@ -60,8 +60,4 @@
   text-align: center;
   font-size: smaller;
   font-style: italic;
-}
-
-.toc ol {
-  list-style: decimal;
 }
