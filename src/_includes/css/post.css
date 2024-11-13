@@ -48,3 +48,9 @@
 .post-link {
   display: inline-block;
 }
+
+.post-body img {
+  max-width: 50%;
+  margin: auto;
+  display: block;
+}

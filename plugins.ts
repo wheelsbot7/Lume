@@ -1,6 +1,3 @@
-import footnotes from "https://deno.land/x/lume_markdown_plugins@v0.7.1/footnotes.ts";
-import image from "https://deno.land/x/lume_markdown_plugins@v0.7.1/image.ts";
-import toc from "https://deno.land/x/lume_markdown_plugins@v0.7.1/toc.ts";
 import { merge } from "lume/core/utils/object.ts";
 import basePath from "lume/plugins/base_path.ts";
 import codeHighlight from "lume/plugins/code_highlight.ts";
@@ -53,15 +50,12 @@ export default function(userOptions?: Options) {
       .use(readingInfo())
       .use(date(options.date))
       .use(metas())
-      .use(image())
-      .use(footnotes())
       .use(resolveUrls())
       .use(slugifyUrls())
       .use(terser())
       .use(pagefind(options.pagefind))
       .use(sitemap())
       .use(feed(options.feed))
-      .use(toc())
       .use(
         esbuild({
           extensions: [".jsx"],

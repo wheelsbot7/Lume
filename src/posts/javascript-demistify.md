@@ -21,7 +21,6 @@ description: >-
   empowerment. Bring to the table win-win survival strategies to ensure
   proactive domination.
 ---
-
 There's a bit of filler text that I've seen used a lot in website templates. Don't bother reading it, it's all gibberish, but here's a good snippet:
 
 <p style='font-size: small; line-height: 50%'>Leverage agile frameworks to provide a robust synopsis for high level overviews. <span style='font-size: smaller'>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. <span style='font-size: smaller'>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. <span style='font-size: smaller'>Bring to the table win-win survival strategies to ensure proactive domination. <span style='font-size: smaller'>At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. <span style='font-size: smaller'>User generated content in real-time will have multiple touchpoints for offshoring. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</span></span></span></span></span></p>
@@ -58,18 +57,24 @@ The reigning champion and oldest of the 3. It's hard to pitch what makes Node sp
 
 ### Bun
 
-Bun is a JavaScript runtime, package manager, bundler, and tester with the main goal of being a drop-in replacement for Node.js. Its selling point is simple: speed. One look at their [website](https://bun.sh/) confirms this. They're really proud of their benchmark scores and are not shy about sharing them. This makes my job a lot easier, because what more do I need to say? There's no hidden nuance here, you don't need any insight into web development to know that a faster runtime is desireable. If you want speed and don't mind the hiccups that come with using software that hit 1.0 in September 2023, bun's the one.
+Bun is a JavaScript runtime, package manager, bundler, and tester with the main goal of being a drop-in replacement for Node.js. Its selling point is simple: speed. One look at their [website](https://bun.sh/) confirms this. They're really proud of their benchmark scores and are not shy about sharing them. This makes my job a lot easier, because what more do I need to say? There's no hidden nuance here, you don't need any insight into web development to know that a faster runtime is desireable. If you want speed and don't mind the hiccups that come with using software that hit 1.0 in September 2023, Bun's the one.
 
 ![Image](/uploads/bun-logo.svg)
 
 ### Deno
 
+Have you ever looked at something you made and realized that trying to fix it would take more work than starting over? Sunk-cost is a powerful deterrent, but it didn't stop Ryan Dahl[^5] from leaving Node.js to try and de-node the web. Hence the name and pronunciation of Deno, a JavaScript runtime looking to solve 3 big problems with Node: security, complexity, and web compatibility. Security is a topic better suited for server admins and professionals, so let's focus on the 2 you'll actually interact with.
+
+![Image](/uploads/heaviest-in-the-universe-node-modules.png)
+
 [^?]: Yes, it's "JavascriptCore", not "JavaScriptCore". I don't like it any more than you do. This is like if Levi-oh-SAH was the correct pronunciation.
 
 [^1]: But you can help [change that](https://www.wheelsbot.dev/posts/arch-linux-install-guide/) today!
 
-[^2]: An [equally confusing](https://youtu.be/8aGhZQkoFbQ) subject, but for now let's just say it's the part of your broser responsible for keeping things consistent between you and the server.
+[^2]: An [equally confusing](https://youtu.be/8aGhZQkoFbQ) subject, but for now let's just say it's the part of your browser responsible for keeping things consistent between you and the server.
 
 [^3]: Which, rather uncreatively, stands for "node package manager"
 
 [^4]: For those of you using your brains for more important things than remembering number prefixes, that's 7 times.
+
+[^5]: Creator of Node.js and has a [Wikipedia page](https://en.wikipedia.org/wiki/Ryan_Dahl) shorter than _this_ article. My guy just revolutionized the modern internet and then proceded to use it as little as possible. King. Check out his [blog](https://tinyclouds.org/) if you can, it's nice to see a titan of modern web design with a blog that _anyone_ could make.
