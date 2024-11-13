@@ -8,7 +8,7 @@ import imageFigures from "npm:markdown-it-image-figures";
 import plugins from "./plugins.ts";
 
 const markdown = {
-  plugins: [toc, footnotes, image, alert, emoji, [imageFigures, { lazy: true, async: true , figcaption: true}]],
+  plugins: [toc, footnotes, image, alert, emoji, [imageFigures, { lazy: true, async: true, figcaption: true }]],
   options: {
     linkify: true,
   },
