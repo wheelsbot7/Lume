@@ -54,3 +54,10 @@
   margin: auto;
   display: block;
 }
+
+.post-body figcaption {
+  margin: auto;
+  text-align: center;
+  font-size: smaller;
+  font-style: italic;
+}

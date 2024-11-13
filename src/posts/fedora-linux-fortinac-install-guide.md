@@ -27,7 +27,7 @@ versions are janky at best and non-functional at worst. Thankfully, my college
 offered a work-around for "miscellaneous devices", set up the whole thing
 manually.
 
-![Screenshot of network configuration on KDE Plasma](/uploads/Screenshot_20240906_114655.png)(Clear as mud, even without the juicy details)
+![Screenshot of network configuration on KDE Plasma](/uploads/Screenshot_20240906_114655.png "Clear as mud, even without the juicy details")
 
 The process of configuring a secure connection manually is a bit overwhelming,
 but it's ultimately just putting squares in the square hole and circles in the
