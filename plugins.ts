@@ -6,6 +6,7 @@ import esbuild from "lume/plugins/esbuild.ts";
 import feed, { Options as FeedOptions } from "lume/plugins/feed.ts";
 import metas from "lume/plugins/metas.ts";
 import pagefind, { Options as PagefindOptions } from "lume/plugins/pagefind.ts";
+import tailwindcss from "lume/plugins/tailwindcss.ts";
 import postcss from "lume/plugins/postcss.ts";
 import prism, { Options as PrismOptions } from "lume/plugins/prism.ts";
 import readingInfo from "lume/plugins/reading_info.ts";
@@ -15,6 +16,8 @@ import slugifyUrls from "lume/plugins/slugify_urls.ts";
 import terser from "lume/plugins/terser.ts";
 
 import "lume/types.ts";
+
+import tailwindOptions from "./tailwind.config.js";
 
 export interface Options {
   prism?: Partial<PrismOptions>;
@@ -43,6 +46,9 @@ export default function(userOptions?: Options) {
 
   return (site: Lume.Site) => {
     site
+      .use(tailwindcss({
+        options: tailwindOptions,
+      }))
       .use(postcss())
       .use(codeHighlight())
       .use(basePath())
