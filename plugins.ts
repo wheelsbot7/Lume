@@ -12,9 +12,12 @@ import readingInfo from "lume/plugins/reading_info.ts";
 import resolveUrls from "lume/plugins/resolve_urls.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import slugifyUrls from "lume/plugins/slugify_urls.ts";
+import tailwindcss from "lume/plugins/tailwindcss.ts";
 import terser from "lume/plugins/terser.ts";
 
 import "lume/types.ts";
+
+import tailwindOptions from "./tailwind.config.js";
 
 export interface Options {
   prism?: Partial<PrismOptions>;
@@ -43,6 +46,9 @@ export default function(userOptions?: Options) {
 
   return (site: Lume.Site) => {
     site
+      .use(tailwindcss({
+        options: tailwindOptions,
+      }))
       .use(postcss())
       .use(codeHighlight())
       .use(basePath())
