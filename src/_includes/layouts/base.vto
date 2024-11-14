@@ -80,6 +80,9 @@
             theme = theme === "dark" ? "light" : "dark";
             localStorage.setItem("theme", theme);
             document.documentElement.dataset.theme = theme;
+            document.documentElement.classList.remove("light");
+            document.documentElement.classList.remove("dark");
+            document.documentElement.classList.add("theme", theme);
           }
           </script>
           <button class="button" onclick="changeTheme()">

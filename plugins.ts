@@ -7,20 +7,19 @@ import feed, { Options as FeedOptions } from "lume/plugins/feed.ts";
 import metas from "lume/plugins/metas.ts";
 import pagefind, { Options as PagefindOptions } from "lume/plugins/pagefind.ts";
 import postcss from "lume/plugins/postcss.ts";
-import prism, { Options as PrismOptions } from "lume/plugins/prism.ts";
 import readingInfo from "lume/plugins/reading_info.ts";
 import resolveUrls from "lume/plugins/resolve_urls.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import slugifyUrls from "lume/plugins/slugify_urls.ts";
 import tailwindcss from "lume/plugins/tailwindcss.ts";
 import terser from "lume/plugins/terser.ts";
+import lang_bash from "npm:highlight.js/lib/languages/bash";
 
 import "lume/types.ts";
 
 import tailwindOptions from "./tailwind.config.js";
 
 export interface Options {
-  prism?: Partial<PrismOptions>;
   date?: Partial<DateOptions>;
   pagefind?: Partial<PagefindOptions>;
   feed?: Partial<FeedOptions>;
@@ -50,9 +49,16 @@ export default function(userOptions?: Options) {
         options: tailwindOptions,
       }))
       .use(postcss())
-      .use(codeHighlight())
+      .use(codeHighlight({
+        languages: {
+          bash: lang_bash,
+        },
+        theme: {
+          name: "github-dark-dimmed",
+          path: "_includes/css/code_theme.css", // The destination filename
+        },
+      }))
       .use(basePath())
-      .use(prism(options.prism))
       .use(readingInfo())
       .use(date(options.date))
       .use(metas())
@@ -89,6 +95,7 @@ export default function(userOptions?: Options) {
       .copy("data")
       .copy("favicon.png")
       .copy("uploads")
+      .copy("/css/code_theme.css")
       .mergeKey("extra_head", "stringArray");
 
     // Alert plugin

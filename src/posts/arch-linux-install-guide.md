@@ -9,6 +9,7 @@ tags:
 comments: {}
 description: If you're just here for an install guide, hop down to the numbered list. If you're interested in learning _why_ you should install Linux, read on!
 draft: false
+titleColor: text-[#1793D1]
 ---
 
 If you're just here for an install guide, hop down to the numbered list. If
@@ -56,8 +57,10 @@ me and hopefully some of you. With me so far? Great, then let's go!
          pay-grade for now
    3. Download Balena Etcher and flash the ISO to your USB drive
       1. This will take a few minutes, so now's the time to grab a drink
-      2. The process will re-partition your flash drive, erasing all data on it
-         and rendering it unusable for general storage, so be aware of that
+
+> [!warning]
+> The process will re-partition your flash drive, erasing all data on it and rendering it unusable for general storage. Use a flash drive that you don't mind losing.
+
 2. ## BOOT YOUR PC INTO BIOS
    1. This step is going to be different depending on what PC you have.
       Generally speaking, hold down either F2 or Delete when your computer shows
@@ -148,7 +151,7 @@ me and hopefully some of you. With me so far? Great, then let's go!
       bottom, and paste into your terminal with Ctrl+Shift+V. An example command
       would look something like this:
       <lume-code class="terminal">
-      ```
+      ```bash
       sudo pacman -Sy vim firefox make cmake git krita gimp inkscape blender libreoffice vlc audacity thunderbird steam wine zsh
       ```
       </lume-code>
