@@ -20,6 +20,7 @@ description: >-
   holistic world view of disruptive innovation via workplace diversity and
   empowerment. Bring to the table win-win survival strategies to ensure
   proactive domination.
+titleColor: text-yellow-500
 ---
 
 There's a bit of filler text that I've seen used a lot in website templates. Don't bother reading it, it's all gibberish, but here's a good snippet:
