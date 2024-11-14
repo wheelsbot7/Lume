@@ -14,7 +14,7 @@ title: Home
   {{ for post of search.pages("type=post", "date=desc", 3) }}
     <article class="post">
       <header class="post-header">
-        <h2 class="post-title">
+        <h2 class="post-title {{post.titleColor}}">
           <a
             href="{{ post.url }}"
             {{ if post.url == url }}
