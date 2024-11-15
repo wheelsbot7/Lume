@@ -20,6 +20,9 @@ title: Home
             {{ if post.url == url }}
               aria-current="page"{{ /if }}
           >
+            {{ if post.titleIcon }}
+              {{ post.titleIcon }}
+            {{ /if }}
             {{ post.title || post.url }}
           </a>
         </h2>

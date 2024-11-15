@@ -24,6 +24,12 @@
   --color-link-hover: var(--color-dim);
 }
 
+svg {
+  display:inline;
+  font-size: 30pt;
+  line-height: 2;
+}
+
 /* Page layout */
 main {
   padding: var(--row-gap-medium) 0;
