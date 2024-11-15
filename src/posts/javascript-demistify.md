@@ -56,19 +56,19 @@ Techinically there's an even _more_ foundational layer called the JavaScript **E
 
 The reigning champion and oldest of the 3. It's hard to pitch what makes Node special because it's considered the default by every dev tool released after 2010. Its biggest strength is compatibility. Its package manager, npm[^3], is ubiquitous enough that a major selling point of the other 2 runtimes is backwards-compatibility with npm. Node has had a lot of time to grow and mature, but that also means it comes with a lot of baggage. The number of people using the internet has more than doubled since Node was released, and the amount of JavaScript in the median website has more than [septupled](https://httparchive.org/reports/state-of-javascript#bytesJs)[^4]. That's the main reason the other 2 popular runtimes sell themselves as more modern and performant alternatives to Node. That, and Node is _easily_ the weakest when it comes to mascots, with their Rocket Turtle only being introduced in Febuary 2024. At that point, their brand identity was a green hexagon for over a decade. No shade towards Rocket Turtle, but he isn't Node, and I doubt he ever will be.
 
-![Image](/uploads/node.js_mascot.png)
+![Image](/uploads/node.js_mascot.png "Rad dude, probably too rad to be the face of such a monolithic pillar of the web")
 
 ### Bun
 
 Bun is a JavaScript runtime, package manager, bundler, and tester with the main goal of being a drop-in replacement for Node.js. Its selling point is simple: speed. One look at their [website](https://bun.sh/) confirms this. They're really proud of their benchmark scores and are not shy about sharing them. This makes my job a lot easier, because what more do I need to say? There's no hidden nuance here, you don't need any insight into web development to know that a faster runtime is desireable. If you want speed and don't mind the hiccups that come with using software that hit 1.0 in September 2023, Bun's the one.
 
-![Image](/uploads/bun-logo.svg)
+![Image](/uploads/bun-logo.svg "They do a lot of branding based around Bun as in Dumpling, and it works in the context of a JavaScript Bundler, but they occasionally reference Bun as an abbreviation for Bunny. That's the kind of flexibility you need to stand a chance against Node.")
 
 ### Deno
 
 Have you ever looked at something you made and realized that trying to fix it would take more work than starting over? Sunk-cost is a powerful deterrent, but it didn't stop Ryan Dahl[^5] from leaving Node.js to try and de-node the web. Hence the name and pronunciation of Deno, a JavaScript runtime looking to solve 3 big problems with Node: security, complexity, and web compatibility. Security is a topic better suited for server admins and professionals, so let's focus on the 2 you'll actually interact with.
 
-![Image](/uploads/heaviest-in-the-universe-node-modules.png)
+![Image](/uploads/heaviest-in-the-universe-node-modules.png "This one folder is probably the reason .gitignore even exists")
 
 [^?]: Yes, it's "JavascriptCore", not "JavaScriptCore". I don't like it any more than you do. This is like if Levi-oh-SAH was the correct pronunciation.
 

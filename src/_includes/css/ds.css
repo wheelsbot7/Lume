@@ -875,13 +875,13 @@ blockquote {
 .footnotes > dl {
   margin: 0;
 }
-.footnotes > dl > div {
+.footnotes > dl > li {
   padding: 0.5em;
 }
-.footnotes > dl > div:target {
-  outline: 1px dashed var(--color-primary);
+.footnotes > ol > li:target {
+  outline: 1px dashed #CB3641;
 }
-:is(.footnotes > dl > div) + div {
+:is(.footnotes > dl > li) + li {
   margin-top: 0.5em;
 }
 .footnotes dt {

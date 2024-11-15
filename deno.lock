@@ -61,6 +61,7 @@
     "npm:markdown-it-attrs@4.2.0": "4.2.0_markdown-it@14.1.0",
     "npm:markdown-it-deflist@3.0.0": "3.0.0",
     "npm:markdown-it-emoji@*": "3.0.0",
+    "npm:markdown-it-footnote@*": "4.0.0",
     "npm:markdown-it-image-figures@*": "2.1.1_markdown-it@14.1.0",
     "npm:markdown-it@14.1.0": "14.1.0",
     "npm:meriyah@4.5.0": "4.5.0",
@@ -906,6 +907,9 @@
     },
     "markdown-it-emoji@3.0.0": {
       "integrity": "sha512-+rUD93bXHubA4arpEZO3q80so0qgoFJEKRkRbjKX8RTdca89v2kfyF+xR3i2sQTwql9tpPZPOQN5B+PunspXRg=="
+    },
+    "markdown-it-footnote@4.0.0": {
+      "integrity": "sha512-WYJ7urf+khJYl3DqofQpYfEYkZKbmXmwxQV8c8mO/hGIhgZ1wOe7R4HLFNwqx7TjILbnC98fuyeSsin19JdFcQ=="
     },
     "markdown-it-image-figures@2.1.1_markdown-it@14.1.0": {
       "integrity": "sha512-mwXSQ2nPeVUzCMIE3HlLvjRioopiqyJLNph0pyx38yf9mpqFDhNGnMpAXF9/A2Xv0oiF2cVyg9xwfF0HNAz05g==",

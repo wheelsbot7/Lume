@@ -1,5 +1,5 @@
 import toc from "https://deno.land/x/lume_markdown_plugins@v0.6.0/toc/mod.ts";
-import footnotes from "https://deno.land/x/lume_markdown_plugins@v0.7.1/footnotes.ts";
+import footnotes from "npm:markdown-it-footnote";
 import image from "https://deno.land/x/lume_markdown_plugins@v0.7.1/image.ts";
 import lume from "lume/mod.ts";
 import { alert } from "npm:@mdit/plugin-alert@0.8.0";
