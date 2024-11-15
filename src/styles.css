@@ -28,6 +28,11 @@ svg {
   display:inline;
   font-size: 30pt;
   line-height: 2;
+  margin-bottom: 0.2em;
+}
+
+a { 
+  text-decoration: underline;
 }
 
 /* Page layout */
