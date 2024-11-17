@@ -76,7 +76,7 @@ Node was originally designed as a generalized software solution for running Java
 
 That may have been more "pitching" than "explaining", but Deno's advantages aren't nearly as easy to articulate as Node's decade+ of support and Bun's Blazing Benchmarks. The bottom line is that Deno is a more modern alternative to Node.js. It's the Vulkan to Node's OpenGL, the Wayland to Node's X11, so if you're technically experienced enough to understand either of those analogies, I recommend giving Deno a shot. Plus their mascot is easily the best: a cute little sauropod chilling in the rain. A+, no notes.
 
-![An image of a long-necked dinosaur with the word "DENO" next to it](/uploads/dark-transparent.svg "It's even poking around the code examples on their website. I like to imagine it's working in the server room, helping with the tall stacks")
+![An image of a long-necked dinosaur with the word "DENO" next to it](/uploads/dark-transparent.svg "It's even poking its little head around the code examples on their website. I like to imagine it's working in the server room, helping with the tall stacks")
 
 [^?]: Yes, it's "JavascriptCore", not "JavaScriptCore". I don't like it any more than you do. This is like if Levi-oh-SAH was the correct pronunciation.
 
