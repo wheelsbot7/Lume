@@ -70,6 +70,10 @@ Have you ever looked at something you made and realized that trying to fix it wo
 
 ![Image](/uploads/heaviest-in-the-universe-node-modules.png "This one folder is probably the reason .gitignore even exists")
 
+Node packages are just that, self-contained packages that are all Node projects themselves. Any given Node project potentially has hundreds of `package.json` files in them. This can lead to a lot of redundancy, especially when it comes to dependency trees. Deno packages usually point to a single TypeScript file that provides all necessary functionality. Not only does this reduce complexity, it also highlights another problem with Node: It was never meant to run on the Web.
+
+Node was originally designed as a generalized software solution for running JavaScript code. To fit this specification, all dependencies had to be present locally. This isn't necessary for servers, where it's assumed that a lot of your website is hosted remotely. This network model means that each page can load only what is needed, and skip any wasted work that may have come with loading parts of Node modules that aren't necessary in a server setting. This web-first design also means Deno supports standard web APIs, making remote loading even more seamless. 
+
 [^?]: Yes, it's "JavascriptCore", not "JavaScriptCore". I don't like it any more than you do. This is like if Levi-oh-SAH was the correct pronunciation.
 
 [^1]: But you can help [change that](https://www.wheelsbot.dev/posts/arch-linux-install-guide/) today!
@@ -80,4 +84,4 @@ Have you ever looked at something you made and realized that trying to fix it wo
 
 [^4]: For those of you using your brains for more important things than remembering number prefixes, that's 7 times.
 
-[^5]: Creator of Node.js and has a [Wikipedia page](https://en.wikipedia.org/wiki/Ryan_Dahl) shorter than _this_ article. My guy just revolutionized the modern internet and then proceded to use it as little as possible. King. Check out his [blog](https://tinyclouds.org/) if you can, it's nice to see a titan of modern web design with a blog that _anyone_ could make.
+[^5]: Creator of Node.js and has a [Wikipedia page](https://en.wikipedia.org/wiki/Ryan_Dahl) shorter than _this_ article. My guy just revolutionized the modern internet and then proceeded to use it as little as possible. King. Check out his [blog](https://tinyclouds.org/) if you can, it's nice to see a titan of modern web design with a blog that _anyone_ could make.
