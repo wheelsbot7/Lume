@@ -20,10 +20,26 @@ description: >-
   holistic world view of disruptive innovation via workplace diversity and
   empowerment. Bring to the table win-win survival strategies to ensure
   proactive domination.
-titleColor: text-[#F0DB4F]
-titleIcon: <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128"><path fill="currentColor" d="M2 1v125h125V1zm66.119 106.513c-1.845 3.749-5.367 6.212-9.448 7.401c-6.271 1.44-12.269.619-16.731-2.059c-2.986-1.832-5.318-4.652-6.901-7.901l9.52-5.83c.083.035.333.487.667 1.071c1.214 2.034 2.261 3.474 4.319 4.485c2.022.69 6.461 1.131 8.175-2.427c1.047-1.81.714-7.628.714-14.065C58.433 78.073 58.48 68 58.48 58h11.709c0 11 .06 21.418 0 32.152c.025 6.58.596 12.446-2.07 17.361m48.574-3.308c-4.07 13.922-26.762 14.374-35.83 5.176c-1.916-2.165-3.117-3.296-4.26-5.795c4.819-2.772 4.819-2.772 9.508-5.485c2.547 3.915 4.902 6.068 9.139 6.949c5.748.702 11.531-1.273 10.234-7.378c-1.333-4.986-11.77-6.199-18.873-11.531c-7.211-4.843-8.901-16.611-2.975-23.335c1.975-2.487 5.343-4.343 8.877-5.235l3.688-.477c7.081-.143 11.507 1.727 14.756 5.355c.904.916 1.642 1.904 3.022 4.045c-3.772 2.404-3.76 2.381-9.163 5.879c-1.154-2.486-3.069-4.046-5.093-4.724c-3.142-.952-7.104.083-7.926 3.403c-.285 1.023-.226 1.975.227 3.665c1.273 2.903 5.545 4.165 9.377 5.926c11.031 4.474 14.756 9.271 15.672 14.981c.882 4.916-.213 8.105-.38 8.581"/></svg>
+titleColor: 'text-[#F0DB4F]'
+titleIcon: >-
+  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0
+  128 128"><path fill="currentColor" d="M2 1v125h125V1zm66.119 106.513c-1.845
+  3.749-5.367 6.212-9.448 7.401c-6.271
+  1.44-12.269.619-16.731-2.059c-2.986-1.832-5.318-4.652-6.901-7.901l9.52-5.83c.083.035.333.487.667
+  1.071c1.214 2.034 2.261 3.474 4.319 4.485c2.022.69 6.461 1.131
+  8.175-2.427c1.047-1.81.714-7.628.714-14.065C58.433 78.073 58.48 68 58.48
+  58h11.709c0 11 .06 21.418 0 32.152c.025 6.58.596 12.446-2.07
+  17.361m48.574-3.308c-4.07 13.922-26.762 14.374-35.83
+  5.176c-1.916-2.165-3.117-3.296-4.26-5.795c4.819-2.772 4.819-2.772
+  9.508-5.485c2.547 3.915 4.902 6.068 9.139 6.949c5.748.702 11.531-1.273
+  10.234-7.378c-1.333-4.986-11.77-6.199-18.873-11.531c-7.211-4.843-8.901-16.611-2.975-23.335c1.975-2.487
+  5.343-4.343 8.877-5.235l3.688-.477c7.081-.143 11.507 1.727 14.756
+  5.355c.904.916 1.642 1.904 3.022 4.045c-3.772 2.404-3.76 2.381-9.163
+  5.879c-1.154-2.486-3.069-4.046-5.093-4.724c-3.142-.952-7.104.083-7.926
+  3.403c-.285 1.023-.226 1.975.227 3.665c1.273 2.903 5.545 4.165 9.377
+  5.926c11.031 4.474 14.756 9.271 15.672 14.981c.882 4.916-.213 8.105-.38
+  8.581"/></svg>
 ---
-
 There's a bit of filler text that I've seen used a lot in website templates. Don't bother reading it, it's all gibberish, but here's a good snippet:
 
 <p style='font-size: small; line-height: 50%'>Leverage agile frameworks to provide a robust synopsis for high level overviews. <span style='font-size: smaller'>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. <span style='font-size: smaller'>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. <span style='font-size: smaller'>Bring to the table win-win survival strategies to ensure proactive domination. <span style='font-size: smaller'>At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. <span style='font-size: smaller'>User generated content in real-time will have multiple touchpoints for offshoring. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</span></span></span></span></span></p>
@@ -56,13 +72,13 @@ Technically there's an even _more_ foundational layer called the JavaScript **En
 
 The reigning champion and oldest of the 3. It's hard to pitch what makes Node special because it's considered the default by every dev tool released after 2010. Its biggest strength is compatibility. Its package manager, npm[^3], is ubiquitous enough that a major selling point of the other 2 runtimes is backwards-compatibility with npm. Node has had a lot of time to grow and mature, but that also means it comes with a lot of baggage. The number of people using the internet has more than doubled since Node was released, and the amount of JavaScript in the median website has more than [septupled](https://httparchive.org/reports/state-of-javascript#bytesJs)[^4]. That's the main reason the other 2 popular runtimes sell themselves as more modern and performant alternatives to Node. That, and Node is _easily_ the weakest when it comes to mascots, with their Rocket Turtle only being introduced in February 2024. At that point, their brand identity was a green hexagon for over a decade. No shade towards Rocket Turtle, but he isn't Node, and I doubt he ever will be.
 
-![Image](/uploads/node.js_mascot.png "Rad dude, probably too rad to be the face of such a monolithic pillar of the web")
+![Node's mascot, a turtle with an aviator hat and goggles, riding a rocket like a skateboard](/uploads/node.js_mascot.png "Rad dude, probably too rad to be the face of such a monolithic pillar of the web")
 
 ### Bun
 
 Bun is a JavaScript runtime, package manager, bundler, and tester with the main goal of being a drop-in replacement for Node.js. Its selling point is simple: speed. One look at their [website](https://bun.sh/) confirms this. They're really proud of their benchmark scores and are not shy about sharing them. This makes my job a lot easier, because what more do I need to say? There's no hidden nuance here, you don't need any insight into web development to know that a faster runtime is desireable. If you want speed and don't mind the hiccups that come with using software that hit 1.0 in September 2023, Bun's the one.
 
-![Image](/uploads/bun-logo.svg "They do a lot of branding based around Bun as in Dumpling, and it works in the context of a JavaScript Bundler, but they occasionally reference Bun as an abbreviation for Bunny. That's the kind of flexibility you need to stand a chance against Node.")
+![Bun's Logo, a steamed bun with round black eyes and an open, smiling mouth](/uploads/bun-logo.svg "They do a lot of branding based around Bun as in Dumpling, and it works in the context of a JavaScript Bundler, but they occasionally reference Bun as an abbreviation for Bunny. That's the kind of flexibility you need to stand a chance against Node.")
 
 ### Deno
 
@@ -77,6 +93,18 @@ Node was originally designed as a generalized software solution for running Java
 That may have been more "pitching" than "explaining", but Deno's advantages aren't nearly as easy to articulate as Node's decade+ of support and Bun's Blazing Benchmarks. The bottom line is that Deno is a more modern alternative to Node.js. It's the Vulkan to Node's OpenGL, the Wayland to Node's X11, so if you're technically experienced enough to understand either of those analogies, I recommend giving Deno a shot. Plus their mascot is easily the best: a cute little sauropod chilling in the rain. A+, no notes.
 
 ![An image of a long-necked dinosaur with the word "DENO" next to it](/uploads/dark-transparent.svg "It's even poking its little head around the code examples on their website. I like to imagine it's working in the server room, helping with the tall stacks")
+
+## Glossary
+
+Okay, after all that, let's take a second to review terms that will come in handy when attempting to decode marketing-speak. All of these obviously have different definitions outside of web development, but that kind of specificity is for docs, not here.
+
+**ENGINE**: A baseline abstraction layer for JavaScript, allowing it to run in a browser.
+
+**RUNTIME**
+
+**NPM**
+
+**FRAMEWORK**
 
 [^?]: Yes, it's "JavascriptCore", not "JavaScriptCore". I don't like it any more than you do. This is like if Levi-oh-SAH was the correct pronunciation.
 
