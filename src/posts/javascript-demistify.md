@@ -100,11 +100,13 @@ Okay, after all that, let's take a second to review terms that will come in hand
 
 **ENGINE**: A baseline abstraction layer for JavaScript, allowing it to run in a browser.
 
-**RUNTIME**
+**RUNTIME**: The environment JavaScript runs in, works closely with the engine to connect your code to everything outside of itself.
 
-**NPM**
+**PACKAGE MANAGER**: Downloads and installs modules, but can be used outside of Node.
 
-**FRAMEWORK**
+**FRAMEWORK**: A larger module that you're expected to build on top of. Defines the basic functionality of your webpage.
+
+So, while your framework is the most flashy component of your JavaScript webpage, you need to be aware of the more foundational parts of your tech-stack.
 
 [^?]: Yes, it's "JavascriptCore", not "JavaScriptCore". I don't like it any more than you do. This is like if Levi-oh-SAH was the correct pronunciation.
 
