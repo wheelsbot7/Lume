@@ -1,15 +1,13 @@
 ---
 title: What even is a "Web Framework" anyway?
-date: '2024-10-28T00:00:00.000Z'
-draft: true
+date: '2024-11-22T00:00:00.000Z'
+draft: false
 tags:
   - webdev
   - JavaScript
-  - React
-  - Vue
-  - Svelte
   - Deno
   - Node.js
+  - Bun
 comments: {}
 description: >-
   There's a bit of filler text that I've seen used a lot in website templates.
@@ -106,7 +104,11 @@ Okay, after all that, let's take a second to review terms that will come in hand
 
 **FRAMEWORK**: A larger module that you're expected to build on top of. Defines the basic functionality of your webpage.
 
-So, while your framework is the most flashy component of your JavaScript webpage, you need to be aware of the more foundational parts of your tech-stack.
+So, while your framework is the most flashy component of your JavaScript webpage, you need to be aware of the more foundational parts of your tech-stack. There are a LOT of frameworks out there, so take some time to consider how they might integrate into the other tools you're using. Web development is a collaborative process! When someone tries to sell their product as an all-in-one solution, know they're really selling other people's work. Stay curious!
+
+Signing off: Wheelsbot 
+
+~~_Always on that dang Computer_~~
 
 [^?]: Yes, it's "JavascriptCore", not "JavaScriptCore". I don't like it any more than you do. This is like if Levi-oh-SAH was the correct pronunciation.
 
