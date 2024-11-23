@@ -12,33 +12,45 @@ title: Home
 
 <section class="postList">
   {{ for post of search.pages("type=post", "date=desc", 3) }}
-  <article class="post">
-    <header class="post-header">
-      <h2 class="post-title">
-        <a href="{{ post.url }}" {{ if post.url == url }} aria-current="page"{{ /if }}>
-          {{ post.title || post.url }}
-        </a>
-      </h2>
+    <article class="post">
+      <header class="post-header">
+        <h2 class="post-title {{post.titleColor}}">
+          <a
+            href="{{ post.url }}"
+            {{ if post.url == url }}
+              aria-current="page"{{ /if }}
+          >
+            {{ if post.titleIcon }}
+              {{ post.titleIcon }}
+            {{ /if }}
+            {{ post.title || post.url }}
+          </a>
+        </h2>
 
-      {{ include "templates/post-details.vto" {
-        date: post.date,
-        tags: post.tags,
-        author: post.author,
-        readingInfo: post.readingInfo
-        } }}
-    </header>
+        {{
+          include "templates/post-details.vto" {
+            date: post.date,
+            tags: post.tags,
+            author: post.author,
+            readingInfo: post.readingInfo,
+          }
+        }}
+      </header>
 
-    <div class="post-excerpt body">
-      {{ post.excerpt |> md }}
-    </div>
+      <div class="post-excerpt body">
+        {{ post.description |> md }}
+      </div>
 
-    <a href="{{ post.url }}" class="post-link">
-      {{ i18n.nav.continue_reading }}
-    </a>
-  </article>
-{{ /for }}
+      <a href="{{ post.url }}" class="post-link">
+        {{ i18n.nav.continue_reading }}
+      </a>
+    </article>
+  {{ /for }}
 </section>
 
-<hr>
+<hr class="mx-16 mt-16 mb-4 border-sky-500">
 
-<p>{{ i18n.nav.archive }}</p>
+<p class="text-neutral-500">
+  More posts can be found in <a href="/archive/" class="text-sky-500 underline"
+  >the Archive</a>.
+</p>

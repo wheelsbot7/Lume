@@ -87,6 +87,7 @@ cms.collection(
   "src:posts/*.md",
   [
     "title: text",
+    "author: text",
     url,
     "date: date",
     {

@@ -7,12 +7,14 @@ tags:
   - Linux
   - Guide
 comments: {}
+description: If you're just here for an install guide, hop down to the numbered list. If you're interested in learning _why_ you should install Linux, read on!
 draft: false
+titleColor: text-[#1793D1]
+titleIcon: <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2c-.89 2.18-1.43 3.61-2.42 5.73c.61.64 1.35 1.39 2.56 2.24c-1.3-.54-2.19-1.07-2.85-1.63C8 11 6.03 14.75 2 22c3.17-1.83 5.63-2.96 7.92-3.39c-.1-.42-.16-.88-.15-1.36v-.1c.05-2.03 1.11-3.59 2.36-3.48c1.25.1 2.22 1.83 2.17 3.87c-.01.38-.05.75-.12 1.09c2.26.44 4.69 1.56 7.82 3.37c-.62-1.14-1.17-2.16-1.69-3.13c-.81-.64-1.7-1.48-3.46-2.37c1.21.3 2.08.66 2.76 1.07C14.26 7.62 13.83 6.3 12 2"/></svg>
 ---
+
 If you're just here for an install guide, hop down to the numbered list. If
 you're interested in learning _why_ you should install Linux, read on!
-
-<!--more-->
 
 Linux has a (well deserved) reputation for being intimidating for newcomers, and
 I don't think that's a problem that needs to or even can be solved. The basic
@@ -46,7 +48,7 @@ me and hopefully some of you. With me so far? Great, then let's go!
 
 1. ## PREPARE INSTALLATION MEDIUM
    1. It's a lot less scary than it sounds, you just need a USB flash drive with
-      > 4GB of storage.
+      \>4GB of storage.
    2. Download the Arch ISO file from whatever mirror you want
       1. Mirrors can be really overwhelming, but they're all the same, the only
          difference is download speed
@@ -56,8 +58,10 @@ me and hopefully some of you. With me so far? Great, then let's go!
          pay-grade for now
    3. Download Balena Etcher and flash the ISO to your USB drive
       1. This will take a few minutes, so now's the time to grab a drink
-      2. The process will re-partition your flash drive, erasing all data on it
-         and rendering it unusable for general storage, so be aware of that
+
+> [!warning]
+> The process will re-partition your flash drive, erasing all data on it and rendering it unusable for general storage. Use a flash drive that you don't mind losing.
+
 2. ## BOOT YOUR PC INTO BIOS
    1. This step is going to be different depending on what PC you have.
       Generally speaking, hold down either F2 or Delete when your computer shows
@@ -147,7 +151,11 @@ me and hopefully some of you. With me so far? Great, then let's go!
       Linux at the top, check all the software you want, copy the command at the
       bottom, and paste into your terminal with Ctrl+Shift+V. An example command
       would look something like this:
-      `sudo pacman -Sy vim firefox make cmake git krita gimp inkscape blender libreoffice vlc audacity thunderbird steam wine zsh`
+      <lume-code class="terminal">
+      ```bash
+      sudo pacman -Sy vim firefox make cmake git krita gimp inkscape blender libreoffice vlc audacity thunderbird steam wine zsh
+      ```
+      </lume-code>
    3. You can make installing packages from AUR (Arch User Repository) a lot
       easier by installing yay (Yet Another Yogurt wrapper). First up, make sure
       you have the packages `base-devel` and `git` by executing

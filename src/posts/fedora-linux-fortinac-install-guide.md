@@ -7,15 +7,17 @@ tags:
   - Linux
   - Guide
 draft: false
+description: I recently had the displeasure of trying to get my laptop to connect to the college Wi-Fi after they tightened their restrictions on endpoint management. Long story short, I was forced to switch from Arch to Fedora, and I feel the need to document the experience so that nobody will ever have to go through what I did to avoid crawling back to Windows with my tail between my legs.
 comments: {}
+titleColor: text-sky-500
+titleIcon: <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.5 2 2 6.47 2 12v7.73C2 21 3 22 4.27 22H12c5.53 0 10-4.5 10-10S17.5 2 12 2m2.03 4.12c1.68 0 3.26 1.28 3.26 3.06c0 .16 0 .32-.02.51c-.05.47-.48.81-.95.75a.836.836 0 0 1-.7-.98c0-.06.01-.14.01-.28c0-1.01-.82-1.4-1.6-1.4s-1.48.66-1.48 1.4c.01.85 0 1.7 0 2.56l1.45-.02c1.12-.02 1.13 1.68 0 1.67l-1.45.01l-.01 2.39c-.18 1.88-1.77 3.37-3.69 3.37c-2.03 0-3.71-1.66-3.71-3.7A3.8 3.8 0 0 1 9 11.74l1.15-.01v1.67L9 13.41h-.03c-1.16.03-2.15.82-2.16 2.06c0 1.12.91 2.03 2.04 2.03c1.15 0 2.03-.83 2.03-2.03c.02-2.01-.01-4.22 0-6.3c0-.12.01-.21.02-.34c.19-1.54 1.57-2.71 3.13-2.71"/></svg>
 ---
+
 I recently had the displeasure of trying to get my laptop to connect to the
 college Wi-Fi after they tightened their restrictions on endpoint management.
 Long story short, I was forced to switch from Arch to Fedora, and I feel the
 need to document the experience so that nobody will ever have to go through what
 I did to avoid crawling back to Windows with my tail between my legs.
-
-<!--more-->
 
 ## Why are we even doing this?
 
@@ -27,7 +29,7 @@ versions are janky at best and non-functional at worst. Thankfully, my college
 offered a work-around for "miscellaneous devices", set up the whole thing
 manually.
 
-![Screenshot of network configuration on KDE Plasma](/uploads/Screenshot_20240906_114655.png)
+![Screenshot of network configuration on KDE Plasma](/uploads/Screenshot_20240906_114655.png "Clear as mud, even without the juicy details")
 
 The process of configuring a secure connection manually is a bit overwhelming,
 but it's ultimately just putting squares in the square hole and circles in the

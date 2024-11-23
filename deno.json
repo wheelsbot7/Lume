@@ -1,15 +1,29 @@
 {
   "imports": {
-    "lume/": "https://deno.land/x/lume@v2.3.3/",
-    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@0.7.0/"
+    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@0.7.2/",
+    "lume/": "https://deno.land/x/lume@v2.4.1/",
+    "react-dom": "https://esm.sh/v135/*react-dom@18.3.1",
+    "react-dom/": "https://esm.sh/v135/*react-dom@18.3.1/",
+    "react": "https://esm.sh/v135/react@18.3.1",
+    "react/": "https://esm.sh/v135/react@18.3.1/",
+    "preact": "npm:preact@10.24.3"
   },
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
+    "cms": "deno task lume cms",
     "build": "deno task lume",
     "serve": "deno task lume -s",
-    "update-deps": "deno run -A --quiet 'https://deno.land/x/nudd@v0.2.8/cli.ts' update plugins.ts deno.json"
+    "update-deps": "deno run -A --quiet 'https://deno.land/x/nudd@v0.2.8/cli.ts' update plugins.ts deno.json",
+    "esm:add": "deno run -A https://esm.sh/v135 add",
+    "esm:update": "deno run -A https://esm.sh/v135 update",
+    "esm:remove": "deno run -A https://esm.sh/v135 remove",
+    "fmt": "deno task dprint fmt",
+    "fmt:check": "deno task dprint check",
+    "dprint": "deno run -A npm:dprint"
   },
   "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
     "types": [
       "lume/types.ts"
     ]
@@ -26,7 +40,16 @@
   },
   "fmt": {
     "exclude": [
-      "./_site"
+      "./_site",
+      "./src/posts",
+      "./src/pages",
+      "./src/.obsidian"
     ]
+  },
+  "scopes": {
+    "https://esm.sh/v135/": {
+      "loose-envify": "https://esm.sh/v135/loose-envify@1.4.0",
+      "scheduler": "https://esm.sh/v135/scheduler@0.23.2"
+    }
   }
 }

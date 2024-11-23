@@ -48,3 +48,16 @@
 .post-link {
   display: inline-block;
 }
+
+.post-body img {
+  max-width: 70%;
+  margin: auto;
+  display: block;
+}
+
+.post-body figcaption {
+  margin: auto;
+  text-align: center;
+  font-size: smaller;
+  font-style: italic;
+}
