@@ -38,6 +38,7 @@ titleIcon: >-
   3.403c-.285 1.023-.226 1.975.227 3.665c1.273 2.903 5.545 4.165 9.377
   5.926c11.031 4.474 14.756 9.271 15.672 14.981c.882 4.916-.213 8.105-.38
   8.581"/></svg>
+author: Owen Wertzberger
 ---
 There's a bit of filler text that I've seen used a lot in website templates. Don't bother reading it, it's all gibberish, but here's a good snippet:
 
