@@ -10,7 +10,8 @@ tags:
   - Svelte
   - Deno
   - Node.js
-comments: {}
+comments:
+  src: 'https://mastodon.gamedev.place/@wheelsbot/113530083269076300'
 description: >-
   There's a bit of filler text that I've seen used a lot in website templates.
   Don't bother reading it, it's all gibberish, but here's a good snippet:
