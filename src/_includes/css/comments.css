@@ -10,7 +10,7 @@
   }
   & p {
     font: var(--font-ui);
-    color: var(--color-dim);
+    @apply text-neutral-300;
     margin: 0.5em 0;
   }
 }
@@ -21,7 +21,7 @@
   background: var(--color-highlight);
   border-radius: var(--border-radius);
   border: solid 1px var(--color-line);
-  color: var(--color-dim);
+  @apply text-neutral-300;
   font: var(--font-small);
   container-type: inline-size;
 
@@ -103,6 +103,7 @@
     text-decoration: none;
     display: block;
     padding-left: var(--indent);
+    @apply pt-1;
   }
   .comment-address:hover {
     text-decoration: underline;

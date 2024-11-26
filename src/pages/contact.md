@@ -4,7 +4,7 @@ title: Contact
 url: /contact/
 menu:
   visible: true
-  order: 2
+  order: 1
 ---
 
 [Linkedin](https://www.linkedin.com/in/owen-wertzberger-14992b164/)

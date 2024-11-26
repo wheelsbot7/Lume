@@ -40,6 +40,7 @@ titleIcon: >-
   8.581"/></svg>
 author: Owen Wertzberger
 ---
+
 There's a bit of filler text that I've seen used a lot in website templates. Don't bother reading it, it's all gibberish, but here's a good snippet:
 
 <p style='font-size: small; line-height: 50%'>Leverage agile frameworks to provide a robust synopsis for high level overviews. <span style='font-size: smaller'>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. <span style='font-size: smaller'>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. <span style='font-size: smaller'>Bring to the table win-win survival strategies to ensure proactive domination. <span style='font-size: smaller'>At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. <span style='font-size: smaller'>User generated content in real-time will have multiple touchpoints for offshoring. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</span></span></span></span></span></p>
@@ -108,7 +109,7 @@ Okay, after all that, let's take a second to review terms that will come in hand
 
 So, while your framework is the most flashy component of your JavaScript webpage, you need to be aware of the more foundational parts of your tech-stack. There are a LOT of frameworks out there, so take some time to consider how they might integrate into the other tools you're using. Web development is a collaborative process! When someone tries to sell their product as an all-in-one solution, know they're really selling other people's work. Stay curious!
 
-Signing off: Wheelsbot 
+Signing off: Wheelsbot
 
 ~~_Always on that dang Computer_~~
 

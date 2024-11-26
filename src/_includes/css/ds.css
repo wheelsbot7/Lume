@@ -5,7 +5,9 @@
 @tailwind components;
 @tailwind utilities;
 
-*, :after, :before {
+*,
+:after,
+:before {
   box-sizing: border-box;
 }
 html {
@@ -34,10 +36,14 @@ hr {
 abbr[title] {
   text-decoration: underline dotted;
 }
-b, strong {
+b,
+strong {
   font-weight: bolder;
 }
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-family:
     ui-monospace,
     SFMono-Regular,
@@ -50,7 +56,8 @@ code, kbd, pre, samp {
 small {
   font-size: 80%;
 }
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -66,16 +73,24 @@ table {
   border-color: inherit;
   text-indent: 0;
 }
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
 }
-button, select {
+button,
+select {
   text-transform: none;
 }
-[type="button"], [type="reset"], [type="submit"], button {
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
   -webkit-appearance: button;
 }
 ::-moz-focus-inner {
@@ -94,7 +109,8 @@ legend {
 progress {
   vertical-align: baseline;
 }
-::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
   height: auto;
 }
 [type="search"] {
@@ -152,7 +168,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 :is(button, input[type="button"], input[type="reset"], input[type="submit"], a[role="button"]):disabled,
-[aria-disabled="true"]:is(button, input[type="button"], input[type="reset"], input[type="submit"], a[role="button"]) {
+[aria-disabled="false"]:is(button, input[type="button"], input[type="reset"], input[type="submit"], a[role="button"]) {
   opacity: 0.33;
   pointer-events: none;
 }
@@ -421,25 +437,27 @@ button[role="switch"][aria-checked="true"]:before {
   --code-background: var(--color-highlight);
   --code-background-selection: #b3d4fc;
   --font-family-code:
-    Consolas,Menlo,Monaco,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L","Courier New",Courier,monospace;
+    Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console",
+    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+    "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
   --font-family-ui: "Includive Sans", sans-serif;
   --font-family-display: var(--font-family-ui);
   --font-bold: 600;
   --font-code: 0.9em/1.5 var(--font-family-code);
-  --font-display: var(--font-bold) clamp(2rem, 10vw, 4rem)/1 var(
+  --font-display: var(--font-bold) clamp(2rem, 10vw, 4rem) / 1 var(
     --font-family-display
   );
   --font-display-spacing: -0.02em;
-  --font-title: var(--font-bold) clamp(1.5rem, 8vw, 2rem)/1.2 var(
+  --font-title: var(--font-bold) clamp(1.5rem, 8vw, 2rem) / 1.2 var(
     --font-family-ui
   );
   --font-title-spacing: -0.015em;
-  --font-body: clamp(1rem, 5vw, 1.125rem)/1.6 var(--font-family-ui);
+  --font-body: clamp(1rem, 5vw, 1.125rem) / 1.6 var(--font-family-ui);
   --font-body-bold: var(--font-bold) var(--font-body);
   --font-body-spacing: 0;
   --font-ui: 1rem/1.4 var(--font-family-ui);
   --font-ui-bold: var(--font-bold) var(--font-ui);
-  --font-small: clamp(0.85rem, 4vw, 0.9rem)/1.4 var(--font-family-ui);
+  --font-small: clamp(0.85rem, 4vw, 0.9rem) / 1.4 var(--font-family-ui);
   --font-small-bold: var(--font-bold) var(--font-small);
   --row-gap-xsmall: 1rem;
   --row-gap-small: 2.5rem;
@@ -483,8 +501,8 @@ button[role="switch"][aria-checked="true"]:before {
 }
 @supports (font-variation-settings: normal) {
   :root {
-    --font-family-display: InterDisplay,var(--font-family-ui);
-    --font-family-ui: InterVariable,-apple-system,system-ui,sans-serif;
+    --font-family-display: InterDisplay, var(--font-family-ui);
+    --font-family-ui: InterVariable, -apple-system, system-ui, sans-serif;
     --font-display-spacing: -0.03em;
     --font-title-spacing: -0.015em;
     --font-body-spacing: -0.01em;
@@ -498,7 +516,8 @@ html {
   scroll-padding-top: 120px;
   text-rendering: auto;
 }
-body, html {
+body,
+html {
   background-color: var(--color-background);
   color: var(--color-base);
   font: var(--font-ui);
@@ -517,10 +536,12 @@ a:hover {
 table {
   margin: 1em 0;
 }
-table td, table th {
+table td,
+table th {
   padding-right: 1em;
 }
-code, pre {
+code,
+pre {
   font: var(--font-code);
   font-variant-ligatures: none;
   letter-spacing: 0;
@@ -549,7 +570,14 @@ hr {
   color: var(--color-line);
   margin: var(--row-gap-medium) 0;
 }
-b, h1, h2, h3, h4, h5, h6, strong {
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
   color: var(--color-text);
   font-weight: var(--font-bold);
 }
@@ -581,7 +609,11 @@ b, h1, h2, h3, h4, h5, h6, strong {
 .body > :first-child {
   margin-top: 0;
 }
-.body h2, .body h3, .body h4, .body h5, .body h6 {
+.body h2,
+.body h3,
+.body h4,
+.body h5,
+.body h6 {
   text-wrap: balance;
   color: var(--color-base);
   margin: 1.5em 0 0.5em;
@@ -592,7 +624,8 @@ b, h1, h2, h3, h4, h5, h6, strong {
   letter-spacing: var(--font-display-spacing);
   padding-bottom: 0.1em;
 }
-.body h1, .body h2 {
+.body h1,
+.body h2 {
   border-bottom: 1px solid var(--color-line);
 }
 .body h2 {
@@ -601,7 +634,11 @@ b, h1, h2, h3, h4, h5, h6, strong {
   padding-bottom: 0.2em;
 }
 .body {
-  :not(pre) > code, b, h1, h2, strong {
+  :not(pre) > code,
+  b,
+  h1,
+  h2,
+  strong {
     color: var(--color-base);
   }
 }
@@ -743,7 +780,8 @@ blockquote {
   transition-duration: var(--animation-duration);
   transition-property: background-color, color;
 }
-.button:disabled, .button[aria-disabled="true"] {
+.button:disabled,
+.button[aria-disabled="false"] {
   cursor: default;
   opacity: 0.33;
   pointer-events: none;
@@ -814,7 +852,7 @@ blockquote {
   text-transform: uppercase;
 }
 .toc ol {
-  @apply text-neutral-500;
+  color: var(--color-base);
   margin: 0;
   padding-left: 1.5em;
 }
@@ -823,7 +861,7 @@ blockquote {
   padding-left: 1em;
 }
 .toc li {
-  margin: 0.1em 0;
+  margin: 0.3em 0;
 }
 .toc a {
   text-decoration: underline;
@@ -879,7 +917,7 @@ blockquote {
   padding: 0.5em;
 }
 .footnotes > ol > li:target {
-  outline: 1px dashed #CB3641;
+  outline: 1px dashed #cb3641;
 }
 :is(.footnotes > dl > li) + li {
   margin-top: 0.5em;
