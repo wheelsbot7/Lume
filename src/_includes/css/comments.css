@@ -103,6 +103,7 @@
     text-decoration: none;
     display: block;
     padding-left: var(--indent);
+    @apply pt-1;
   }
   .comment-address:hover {
     text-decoration: underline;
