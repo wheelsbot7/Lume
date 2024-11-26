@@ -167,7 +167,7 @@ input[type="submit"] {
     input[type="submit"],
     a[role="button"]
   ):disabled,
-[aria-disabled="true"]:is(
+[aria-disabled="false"]:is(
     button,
     input[type="button"],
     input[type="reset"],
@@ -810,7 +810,7 @@ blockquote {
   transition-property: background-color, color;
 }
 .button:disabled,
-.button[aria-disabled="true"] {
+.button[aria-disabled="false"] {
   cursor: default;
   opacity: 0.33;
   pointer-events: none;
