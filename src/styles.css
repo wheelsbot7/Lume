@@ -25,13 +25,13 @@
 }
 
 svg {
-  display:inline;
+  display: inline;
   font-size: 30pt;
   line-height: 2;
   margin-bottom: 0.2em;
 }
 
-a { 
+a {
   text-decoration: underline;
 }
 
