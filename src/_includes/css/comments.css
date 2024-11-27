@@ -91,11 +91,11 @@
   .comment-username {
     margin-right: 0.5em;
     color: var(--color-text);
-    margin-bottom: 5px;
+    padding-bottom: 10px;
   }
   .comment-useraddress {
     font-style: normal;
-    margin-bottom: 5px;
+    padding-bottom: 10px;
   }
   .comment-time {
     font-size: small;
@@ -104,6 +104,7 @@
     color: currentColor;
     text-decoration: none;
     display: block;
+    padding-top: 0.2em;
     padding-left: var(--indent);
   }
   .comment-address:hover {
