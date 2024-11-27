@@ -104,7 +104,7 @@
     color: currentColor;
     text-decoration: none;
     display: block;
-    padding-top: 0.3em;
+    padding-top: 0.25em;
     padding-left: var(--indent);
   }
   .comment-address:hover {
