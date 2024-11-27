@@ -10,7 +10,7 @@
   }
   & p {
     font: var(--font-ui);
-    @apply text-neutral-300;
+    color: var(--color-text);
     margin: 0.5em 0;
   }
 }
@@ -21,7 +21,7 @@
   background: var(--color-highlight);
   border-radius: var(--border-radius);
   border: solid 1px var(--color-line);
-  @apply text-neutral-300;
+  color: var(--color-text);
   font: var(--font-small);
   container-type: inline-size;
 
@@ -91,9 +91,11 @@
   .comment-username {
     margin-right: 0.5em;
     color: var(--color-text);
+    margin-bottom: 5px;
   }
   .comment-useraddress {
     font-style: normal;
+    margin-bottom: 5px;
   }
   .comment-time {
     font-size: small;
@@ -103,7 +105,6 @@
     text-decoration: none;
     display: block;
     padding-left: var(--indent);
-    @apply pt-1;
   }
   .comment-address:hover {
     text-decoration: underline;
