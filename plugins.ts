@@ -45,19 +45,24 @@ export default function(userOptions?: Options) {
 
   return (site: Lume.Site) => {
     site
-      .use(tailwindcss({
-        options: tailwindOptions,
-      }))
+      .use(
+        tailwindcss({
+          extensions: [".html", ".jsx", ".vto"],
+          options: tailwindOptions,
+        })
+      )
       .use(postcss())
-      .use(codeHighlight({
-        languages: {
-          bash: lang_bash,
-        },
-        theme: {
-          name: "github-dark-dimmed",
-          path: "_includes/css/code_theme.css", // The destination filename
-        },
-      }))
+      .use(
+        codeHighlight({
+          languages: {
+            bash: lang_bash,
+          },
+          theme: {
+            name: "github-dark-dimmed",
+            path: "_includes/css/code_theme.css", // The destination filename
+          },
+        })
+      )
       .use(basePath())
       .use(readingInfo())
       .use(date(options.date))
@@ -85,10 +90,10 @@ export default function(userOptions?: Options) {
           },
           esm: {
             cjsExports: {
-              "preact": ["Component"],
+              preact: ["Component"],
             },
           },
-        }),
+        })
       )
       .copy("fonts")
       .copy("js")

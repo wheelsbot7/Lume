@@ -2,6 +2,7 @@ import typography from "npm:@tailwindcss/typography";
 import plugin from "npm:tailwindcss/plugin.js";
 
 export default {
+  content: ['./src/**/*.(html,js,css,vto)'],
   mode: "jit",
   darkMode: ["variant", [
     "@media (prefers-color-scheme: dark) { &:not(.light *) }",
