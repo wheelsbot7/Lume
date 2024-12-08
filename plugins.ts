@@ -13,7 +13,6 @@ import sitemap from "lume/plugins/sitemap.ts";
 import slugifyUrls from "lume/plugins/slugify_urls.ts";
 import tailwindcss from "lume/plugins/tailwindcss.ts";
 import terser from "lume/plugins/terser.ts";
-import lang_bash from "npm:highlight.js/lib/languages/bash";
 
 import "lume/types.ts";
 
