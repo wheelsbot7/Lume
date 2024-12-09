@@ -8,8 +8,6 @@
 @import "css/post.css";
 @import "css/comments.css";
 
-@import "css/terminal.css";
-
 @import "css/code_theme.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap");
@@ -51,6 +49,14 @@ main {
   margin-top: var(--row-gap-xsmall);
 }
 
+pre code {
+  scrollbar-width: none;
+  display: inline;
+  white-space: pre-wrap !important;
+}
+
+code { display:inline-flex;
+}
 /* copied from pixelde.su */
 
 @layer components {
@@ -61,8 +67,8 @@ main {
   }
 
   .button {
-    @apply inline-flex items-center rounded-md shadow-lg font-bold text-white
-      px-2 py-0.5 transition-all hocus:translate-y-0.5;
+    @apply inline-flex items-center rounded-md shadow-lg font-bold dark:text-white text-black
+      px-2 py-0.5 transition-all hover:translate-y-0.5;
   }
 
   .button svg {

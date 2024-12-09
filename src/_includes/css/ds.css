@@ -804,10 +804,6 @@ blockquote {
   --background-hover: var(--color-line);
   --background-active: var(--color-line);
 }
-.button:hover {
-  background: var(--background-hover, none);
-  color: var(--color-hover, currentColor);
-}
 
 .emptyState {
   background-color: var(--color-highlight);
