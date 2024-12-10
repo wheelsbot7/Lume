@@ -164,11 +164,29 @@ input[type="submit"] {
   text-align: center;
   text-decoration: none;
 }
-:is(button, input[type="button"], input[type="reset"], input[type="submit"], a[role="button"]):not(:disabled) {
+:is(
+  button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"],
+  a[role="button"]
+):not(:disabled) {
   cursor: pointer;
 }
-:is(button, input[type="button"], input[type="reset"], input[type="submit"], a[role="button"]):disabled,
-[aria-disabled="false"]:is(button, input[type="button"], input[type="reset"], input[type="submit"], a[role="button"]) {
+:is(
+  button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"],
+  a[role="button"]
+):disabled,
+[aria-disabled="false"]:is(
+  button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"],
+  a[role="button"]
+) {
   opacity: 0.33;
   pointer-events: none;
 }
@@ -328,11 +346,37 @@ textarea {
   padding: 0.7em;
   width: 100%;
 }
-:is(input[type="date"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea):disabled {
+:is(
+  input[type="date"],
+  input[type="datetime-local"],
+  input[type="email"],
+  input[type="month"],
+  input[type="number"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="text"],
+  input[type="time"],
+  input[type="url"],
+  input[type="week"],
+  textarea
+):disabled {
   opacity: 0.33;
   pointer-events: none;
 }
-:is(input[type="date"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea)::placeholder {
+:is(
+  input[type="date"],
+  input[type="datetime-local"],
+  input[type="email"],
+  input[type="month"],
+  input[type="number"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="text"],
+  input[type="time"],
+  input[type="url"],
+  input[type="week"],
+  textarea
+)::placeholder {
   color: currentColor;
   opacity: 0.5;
 }

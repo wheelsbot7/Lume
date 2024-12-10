@@ -39,7 +39,7 @@ export const defaults: Options = {
 };
 
 /** Configure the site */
-export default function(userOptions?: Options) {
+export default function (userOptions?: Options) {
   const options = merge(defaults, userOptions);
 
   return (site: Lume.Site) => {
@@ -48,7 +48,7 @@ export default function(userOptions?: Options) {
         tailwindcss({
           extensions: [".html", ".jsx", ".vto"],
           options: tailwindOptions,
-        })
+        }),
       )
       .use(postcss())
       .use(basePath())
@@ -81,7 +81,7 @@ export default function(userOptions?: Options) {
               preact: ["Component"],
             },
           },
-        })
+        }),
       )
       .copy("fonts")
       .copy("js")

@@ -1,6 +1,6 @@
 export const layout = "layouts/archive_result.vto";
 
-export default function*({ search, i18n }) {
+export default function* ({ search, i18n }) {
   // Generate a page for each tag
   for (const tag of search.values("tags")) {
     yield {

@@ -55,7 +55,8 @@ pre code {
   white-space: pre-wrap !important;
 }
 
-code { display:inline-flex;
+code {
+  display: inline-flex;
 }
 /* copied from pixelde.su */
 
@@ -67,8 +68,9 @@ code { display:inline-flex;
   }
 
   .button {
-    @apply inline-flex items-center rounded-md shadow-lg font-bold dark:text-white text-black
-      px-2 py-0.5 transition-all hover:translate-y-0.5;
+    @apply inline-flex items-center rounded-md shadow-lg font-bold
+      dark:text-white text-black px-2 py-0.5 transition-all
+      hover:translate-y-0.5;
   }
 
   .button svg {

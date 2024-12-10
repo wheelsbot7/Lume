@@ -69,7 +69,7 @@ class SoftwareList extends HTMLElement {
   updateselectedSoftware() {
     // Get all the checkboxes inside the shadow DOM
     const checkboxes = this.shadowRoot.querySelectorAll(
-      "input[type=\"checkbox\"]:checked",
+      'input[type="checkbox"]:checked',
     );
 
     // Create a string of selected software
@@ -78,7 +78,8 @@ class SoftwareList extends HTMLElement {
       .join(" ");
 
     // Update the text content of the paragraph with the selected software
-    this.selectedSoftwareParagraph.textContent = `sudo pacman -Sy ${selectedSoftware}`;
+    this.selectedSoftwareParagraph.textContent =
+      `sudo pacman -Sy ${selectedSoftware}`;
   }
 }
 

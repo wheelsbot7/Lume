@@ -28,7 +28,7 @@ const site = lume(
     src: "./src",
     location: new URL("https://www.wheelsbot.dev"),
   },
-  { markdown }
+  { markdown },
 );
 
 site.use(plugins());
@@ -39,7 +39,7 @@ site.use(
       themes: ["material-theme-darker"],
     },
     theme: "material-theme-darker",
-  })
+  }),
 );
 
 export default site;
