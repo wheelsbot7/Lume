@@ -51,14 +51,6 @@ export default function(userOptions?: Options) {
         })
       )
       .use(postcss())
-      .use(
-        codeHighlight({
-          theme: {
-            name: "github-dark-dimmed",
-            path: "_includes/css/code_theme.css", // The destination filename
-          },
-        })
-      )
       .use(basePath())
       .use(readingInfo())
       .use(date(options.date))
