@@ -1,6 +1,6 @@
 ---
 title: What even is a "Web Framework" anyway?
-date: '2024-11-22T00:00:00.000Z'
+date: "2024-11-22T00:00:00.000Z"
 draft: false
 tags:
   - webdev
@@ -9,7 +9,7 @@ tags:
   - Node.js
   - Bun
 comments:
-  src: 'https://mastodon.gamedev.place/@wheelsbot/113530083269076300'
+  src: "https://mastodon.gamedev.place/@wheelsbot/113530083269076300"
 description: >-
   There's a bit of filler text that I've seen used a lot in website templates.
   Don't bother reading it, it's all gibberish, but here's a good snippet:
@@ -19,7 +19,7 @@ description: >-
   holistic world view of disruptive innovation via workplace diversity and
   empowerment. Bring to the table win-win survival strategies to ensure
   proactive domination.
-titleColor: 'text-[#F0DB4F]'
+titleColor: "text-[#F0DB4F]"
 titleIcon: >-
   <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0
   128 128"><path fill="currentColor" d="M2 1v125h125V1zm66.119 106.513c-1.845
@@ -114,13 +114,8 @@ Signing off: Wheelsbot
 ~~_Always on that dang Computer_~~
 
 [^?]: Yes, it's "JavascriptCore", not "JavaScriptCore". I don't like it any more than you do. This is like if Levi-oh-SAH was the correct pronunciation.
-
 [^1]: But you can help [change that](https://www.wheelsbot.dev/posts/arch-linux-install-guide/) today!
-
 [^2]: An [equally confusing](https://youtu.be/8aGhZQkoFbQ) subject, but for now let's just say it's the part of your browser responsible for keeping things consistent between you and the server.
-
 [^3]: Which, rather uncreatively, stands for "node package manager"
-
 [^4]: For those of you using your brains for more important things than remembering number prefixes, that's 7 times.
-
 [^5]: Creator of Node.js and has a [Wikipedia page](https://en.wikipedia.org/wiki/Ryan_Dahl) shorter than _this_ article. My guy just revolutionized the modern internet and then proceeded to use it as little as possible. King. Check out his [blog](https://tinyclouds.org/) if you can, it's nice to see a titan of modern web design with a blog that _anyone_ could make.

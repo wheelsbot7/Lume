@@ -1,6 +1,6 @@
 import toc from "https://deno.land/x/lume_markdown_plugins@v0.6.0/toc/mod.ts";
 import image from "https://deno.land/x/lume_markdown_plugins@v0.7.1/image.ts";
-import shiki from "https://deno.land/x/lume_shiki/mod.ts";
+import shiki from "https://deno.land/x/lume_shiki@0.0.16/mod.ts";
 import lume from "lume/mod.ts";
 import { alert } from "npm:@mdit/plugin-alert@0.8.0";
 import { full as emoji } from "npm:markdown-it-emoji";
