@@ -1,12 +1,12 @@
 {
   "imports": {
-    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@0.7.3/",
-    "lume/": "https://deno.land/x/lume@v2.4.2/",
+    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@0.7.6/",
+    "lume/": "https://deno.land/x/lume@v2.4.3/",
     "react-dom": "https://esm.sh/v135/*react-dom@18.3.1",
     "react-dom/": "https://esm.sh/v135/*react-dom@18.3.1/",
     "react": "https://esm.sh/v135/react@18.3.1",
     "react/": "https://esm.sh/v135/react@18.3.1/",
-    "preact": "npm:preact@10.25.1"
+    "preact": "npm:preact@10.25.2"
   },
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
