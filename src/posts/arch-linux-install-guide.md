@@ -1,6 +1,6 @@
 ---
 title: Arch Linux Install Guide
-date: '2024-08-06T00:00:00.000Z'
+date: "2024-08-06T00:00:00.000Z"
 author: Owen Wertzberger
 tags:
   - Arch
@@ -143,6 +143,7 @@ me and hopefully some of you. With me so far? Great, then let's go!
       Just reboot and you should be able to log in with the account you
       specified earlier.
 5. ## POST-INSTALL
+
    1. If you're ready to dive into settings and configure your new system, this
       is where you get off, but if not, there's a few post-install things I
       would recommend you do.
